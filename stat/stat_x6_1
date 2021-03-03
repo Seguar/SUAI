@@ -1,0 +1,790 @@
+Mar  3 09:08:45 rhf2s008 rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="465" x-info="http://www.rsyslog.com"] start
+Mar  3 09:08:45 rhf2s008 systemd-modules-load[109]: Inserted module 'rhf_ds18b20'
+Mar  3 09:08:45 rhf2s008 systemd[1]: Mounted Configuration File System.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Apply Kernel Variables.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Create Static Device Nodes in /dev.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting udev Kernel Device Manager...
+Mar  3 09:08:45 rhf2s008 fake-hwclock[107]: Wed  3 Mar 09:08:42 UTC 2021
+Mar  3 09:08:45 rhf2s008 systemd-fsck[113]: e2fsck 1.42.12 (29-Aug-2014)
+Mar  3 09:08:45 rhf2s008 systemd-fsck[113]: /dev/mmcblk0p2: clean, 41671/234320 files, 254040/937216 blocks
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started udev Kernel Device Manager.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Copy rules generated while the root was ro...
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting LSB: Set preliminary keymap...
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Copy rules generated while the root was ro.
+Mar  3 09:08:45 rhf2s008 ifplugd(lo)[198]: ifplugd 0.28 initializing.
+Mar  3 09:08:45 rhf2s008 ifplugd(lo)[198]: Using interface lo/00:00:00:00:00:00
+Mar  3 09:08:45 rhf2s008 ifplugd(lo)[198]: Using detection mode: SIOCETHTOOL
+Mar  3 09:08:45 rhf2s008 ifplugd(lo)[198]: Initialization complete, link beat detected.
+Mar  3 09:08:45 rhf2s008 ifplugd(lo)[198]: Executing '/etc/ifplugd/ifplugd.action lo up'.
+Mar  3 09:08:45 rhf2s008 ifplugd(lo)[198]: client: /sbin/ifup: failed to open lockfile /run/network/.ifstate.lock: No such file or directory
+Mar  3 09:08:45 rhf2s008 ifplugd(lo)[198]: client: run-parts: /etc/ifplugd/action.d//ifupdown exited with return code 1
+Mar  3 09:08:45 rhf2s008 keyboard-setup[143]: Setting preliminary keymap...done.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started LSB: Set preliminary keymap.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Show Plymouth Boot Screen...
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Remount Root and Kernel File Systems...
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Remount Root and Kernel File Systems.
+Mar  3 09:08:45 rhf2s008 ifplugd(lo)[198]: Program execution failed, return value is 1.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Various fixups to make systemd work better on Debian.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Local File Systems (Pre).
+Mar  3 09:08:45 rhf2s008 systemd[1]: Reached target Local File Systems (Pre).
+Mar  3 09:08:45 rhf2s008 systemd[1]: Mounting /var/tmp...
+Mar  3 09:08:45 rhf2s008 systemd[1]: Mounting /var/spool/mqueue...
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Mar  3 09:08:45 rhf2s008 systemd[1]: Mounting /var/log...
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] Initializing cgroup subsys cpu
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Mar  3 09:08:45 rhf2s008 systemd[1]: var-log.mount: Directory /var/log to mount over is not empty, mounting anyway.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] Linux version 4.4.50-v7+ (dc4@dc4-XPS13-9333) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ) #970 SMP Mon Feb 20 19:18:29 GMT 2017
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+Mar  3 09:08:45 rhf2s008 systemd[1]: Mounting /tmp...
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] Machine model: Raspberry Pi Compute Module 3 Rev 1.0
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] cma: Reserved 8 MiB at 0x3a800000
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] Memory policy: Data cache writealloc
+Mar  3 09:08:45 rhf2s008 systemd[1]: tmp.mount: Directory /tmp to mount over is not empty, mounting anyway.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] On node 0 totalpages: 241664
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] free_area_init_node: node 0, pgdat 808c5040, node_mem_map b9fa6000
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000]   Normal zone: 2124 pages used for memmap
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Load/Save Random Seed...
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000]   Normal zone: 241664 pages, LIFO batch:31
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] [bcm2709_smp_init_cpus] enter (9520->f3003010)
+Mar  3 09:08:45 rhf2s008 systemd[1]: Mounted /var/log.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] [bcm2709_smp_init_cpus] ncores=4
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] PERCPU: Embedded 13 pages/cpu @b9f62000 s22592 r8192 d22464 u53248
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] pcpu-alloc: s22592 r8192 d22464 u53248 alloc=13*4096
+Mar  3 09:08:45 rhf2s008 systemd[1]: Mounted /var/spool/mqueue.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 239540
+Mar  3 09:08:45 rhf2s008 systemd[1]: Mounted /var/tmp.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] Kernel command line: 8250.nr_uarts=1 bcm2708_fb.fbwidth=656 bcm2708_fb.fbheight=416 bcm2708_fb.fbswap=1 dma.dmachans=0x7f35 bcm2709.boardrev=0xa220a0 bcm2709.serial=0x1701528f bcm2709.uart_clock=48000000 smsc95xx.macaddr=B8:27:EB:01:52:8F vc_mem.mem_base=0x3dc00000 vc_mem.mem_size=0x3f000000  dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Mar  3 09:08:45 rhf2s008 systemd[1]: Mounted /tmp.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] Memory: 939064K/966656K available (6357K kernel code, 432K rwdata, 1716K rodata, 476K init, 764K bss, 19400K reserved, 8192K cma-reserved)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] Virtual kernel memory layout:
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Load/Save Random Seed.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000]     vmalloc : 0xbb800000 - 0xff800000   (1088 MB)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000]     lowmem  : 0x80000000 - 0xbb000000   ( 944 MB)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000]     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Mar  3 09:08:45 rhf2s008 systemd[1]: Received SIGRTMIN+20 from PID 214 (plymouthd).
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000]       .text : 0x80008000 - 0x807ea73c   (8074 kB)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000]       .init : 0x807eb000 - 0x80862000   ( 476 kB)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000]       .data : 0x80862000 - 0x808ce350   ( 433 kB)
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Show Plymouth Boot Screen.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000]        .bss : 0x808d1000 - 0x809901ec   ( 765 kB)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] Hierarchical RCU implementation.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 32.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] NR_IRQS:16 nr_irqs:16 16
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] Architected cp15 timer(s) running at 19.20MHz (phys).
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Paths.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000008] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000026] Switching to timer-based delay loop, resolution 52ns
+Mar  3 09:08:45 rhf2s008 systemd[1]: Reached target Paths.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000282] Console: colour dummy device 80x30
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000479] console [tty1] enabled
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Forward Password Requests to Plymouth Directory Watch.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000511] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000531] pid_max: default: 32768 minimum: 301
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000841] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.000855] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.001781] Disabling cpuset control group subsystem
+Mar  3 09:08:45 rhf2s008 kernel: [    0.001814] Initializing cgroup subsys io
+Mar  3 09:08:45 rhf2s008 kernel: [    0.001844] Initializing cgroup subsys memory
+Mar  3 09:08:45 rhf2s008 kernel: [    0.001890] Initializing cgroup subsys devices
+Mar  3 09:08:45 rhf2s008 ifplugd(eth0)[238]: ifplugd 0.28 initializing.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.001911] Initializing cgroup subsys freezer
+Mar  3 09:08:45 rhf2s008 kernel: [    0.001931] Initializing cgroup subsys net_cls
+Mar  3 09:08:45 rhf2s008 kernel: [    0.001979] CPU: Testing write buffer coherency: ok
+Mar  3 09:08:45 rhf2s008 ifplugd(eth0)[238]: Using interface eth0/B8:27:EB:01:52:8F with driver <smsc95xx> (version: 22-Aug-2005)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.002041] ftrace: allocating 21246 entries in 63 pages
+Mar  3 09:08:45 rhf2s008 kernel: [    0.051215] CPU0: update cpu_capacity 1024
+Mar  3 09:08:45 rhf2s008 kernel: [    0.051247] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Mar  3 09:08:45 rhf2s008 ifplugd(eth0)[238]: Using detection mode: SIOCETHTOOL
+Mar  3 09:08:45 rhf2s008 kernel: [    0.051258] [bcm2709_smp_prepare_cpus] enter
+Mar  3 09:08:45 rhf2s008 kernel: [    0.051396] Setting up static identity map for 0x8240 - 0x8274
+Mar  3 09:08:45 rhf2s008 ifplugd(eth0)[238]: Initialization complete, link beat not detected.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.053003] [bcm2709_boot_secondary] cpu:1 started (0) 18
+Mar  3 09:08:45 rhf2s008 kernel: [    0.053218] [bcm2709_secondary_init] enter cpu:1
+Mar  3 09:08:45 rhf2s008 kernel: [    0.053262] CPU1: update cpu_capacity 1024
+Mar  3 09:08:45 rhf2s008 kernel: [    0.053268] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+Mar  3 09:08:45 rhf2s008 systemd[1]: Hardware watchdog 'Broadcom BCM2835 Watchdog timer', version 0
+Mar  3 09:08:45 rhf2s008 kernel: [    0.053643] [bcm2709_boot_secondary] cpu:2 started (0) 17
+Mar  3 09:08:45 rhf2s008 kernel: [    0.053807] [bcm2709_secondary_init] enter cpu:2
+Mar  3 09:08:45 rhf2s008 kernel: [    0.053828] CPU2: update cpu_capacity 1024
+Mar  3 09:08:45 rhf2s008 systemd[1]: Failed to set timeout to 30s: Invalid argument
+Mar  3 09:08:45 rhf2s008 kernel: [    0.053834] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+Mar  3 09:08:45 rhf2s008 kernel: [    0.054191] [bcm2709_boot_secondary] cpu:3 started (0) 17
+Mar  3 09:08:45 rhf2s008 kernel: [    0.054321] [bcm2709_secondary_init] enter cpu:3
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Sound Card.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.054341] CPU3: update cpu_capacity 1024
+Mar  3 09:08:45 rhf2s008 kernel: [    0.054347] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+Mar  3 09:08:45 rhf2s008 kernel: [    0.054408] Brought up 4 CPUs
+Mar  3 09:08:45 rhf2s008 systemd[1]: Reached target Sound Card.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.054431] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+Mar  3 09:08:45 rhf2s008 kernel: [    0.054439] CPU: All CPU(s) started in HYP mode.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.054447] CPU: Virtualization extensions available.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.055054] devtmpfs: initialized
+Mar  3 09:08:45 rhf2s008 systemd[1]: Found device /dev/ttyAMA0.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.065747] VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+Mar  3 09:08:45 rhf2s008 kernel: [    0.066074] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Mar  3 09:08:45 rhf2s008 systemd[1]: Found device /dev/mmcblk0p1.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.066776] pinctrl core: initialized pinctrl subsystem
+Mar  3 09:08:45 rhf2s008 kernel: [    0.067307] NET: Registered protocol family 16
+Mar  3 09:08:45 rhf2s008 kernel: [    0.072470] DMA: preallocated 4096 KiB pool for atomic coherent allocations
+Mar  3 09:08:45 rhf2s008 ifplugd(usb0)[287]: ifplugd 0.28 initializing.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.079468] bcm2709: Mini UART enabled
+Mar  3 09:08:45 rhf2s008 kernel: [    0.079507] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.079517] hw-breakpoint: maximum watchpoint size is 8 bytes.
+Mar  3 09:08:45 rhf2s008 ifplugd(usb0)[287]: Using interface usb0/02:1E:10:1F:00:00 with driver <cdc_ether> (version: 22-Aug-2005)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.079668] Serial: AMBA PL011 UART driver
+Mar  3 09:08:45 rhf2s008 kernel: [    0.079902] 3f201000.uart: ttyAMA0 at MMIO 0x3f201000 (irq = 87, base_baud = 0) is a PL011 rev2
+Mar  3 09:08:45 rhf2s008 kernel: [    0.080261] console [ttyAMA0] enabled
+Mar  3 09:08:45 rhf2s008 kernel: [    0.080744] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+Mar  3 09:08:45 rhf2s008 ifplugd(usb0)[287]: Using detection mode: SIOCETHTOOL
+Mar  3 09:08:45 rhf2s008 kernel: [    0.143401] bcm2835-dma 3f007000.dma: DMA legacy API manager at f3007000, dmachans=0x1
+Mar  3 09:08:45 rhf2s008 kernel: [    0.143979] SCSI subsystem initialized
+Mar  3 09:08:45 rhf2s008 kernel: [    0.144168] usbcore: registered new interface driver usbfs
+Mar  3 09:08:45 rhf2s008 ifplugd(usb0)[287]: Initialization complete, link beat detected.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.144258] usbcore: registered new interface driver hub
+Mar  3 09:08:45 rhf2s008 kernel: [    0.144357] usbcore: registered new device driver usb
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting File System Check on /dev/mmcblk0p1...
+Mar  3 09:08:45 rhf2s008 kernel: [    0.150795] raspberrypi-firmware soc:firmware: Attached to firmware from 2017-03-03 13:42
+Mar  3 09:08:45 rhf2s008 kernel: [    0.177939] clocksource: Switched to clocksource arch_sys_counter
+Mar  3 09:08:45 rhf2s008 kernel: [    0.222670] FS-Cache: Loaded
+Mar  3 09:08:45 rhf2s008 kernel: [    0.222944] CacheFiles: Loaded
+Mar  3 09:08:45 rhf2s008 ifplugd(usb0)[287]: Executing '/etc/ifplugd/ifplugd.action usb0 up'.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.235245] NET: Registered protocol family 2
+Mar  3 09:08:45 rhf2s008 kernel: [    0.236101] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.236215] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.236404] TCP: Hash tables configured (established 8192 bind 8192)
+Mar  3 09:08:45 rhf2s008 ifplugd(usb0)[287]: client: /sbin/ifup: failed to open lockfile /run/network/.ifstate.lock: No such file or directory
+Mar  3 09:08:45 rhf2s008 kernel: [    0.236501] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.236548] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.236778] NET: Registered protocol family 1
+Mar  3 09:08:45 rhf2s008 ifplugd(usb0)[287]: client: run-parts: /etc/ifplugd/action.d//ifupdown exited with return code 1
+Mar  3 09:08:45 rhf2s008 kernel: [    0.237106] RPC: Registered named UNIX socket transport module.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.237116] RPC: Registered udp transport module.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.237124] RPC: Registered tcp transport module.
+Mar  3 09:08:45 rhf2s008 systemd-fsck[288]: fsck.fat 3.0.27 (2014-11-12)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.237133] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.238224] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+Mar  3 09:08:45 rhf2s008 kernel: [    0.239557] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Mar  3 09:08:45 rhf2s008 systemd-fsck[288]: /dev/mmcblk0p1: 125 files, 41510/127006 clusters
+Mar  3 09:08:45 rhf2s008 kernel: [    0.252768] VFS: Disk quotas dquot_6.6.0
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started File System Check on /dev/mmcblk0p1.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Mounting /boot...
+Mar  3 09:08:45 rhf2s008 ifplugd(usb0)[287]: Program execution failed, return value is 1.
+Mar  3 09:08:45 rhf2s008 ifplugd(usb0)[287]: Link beat lost.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Mounted /boot.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Local File Systems.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Reached target Local File Systems.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Create Volatile Files and Directories...
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Remote File Systems.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Reached target Remote File Systems.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Trigger Flushing of Journal to Persistent Storage...
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting LSB: Prepare console...
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting LSB: Raise network interfaces....
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Create Volatile Files and Directories.
+Mar  3 09:08:45 rhf2s008 raspi-config[311]: Checking if shift key is held down:Error opening '/dev/input/event*': No such file or directory
+Mar  3 09:08:45 rhf2s008 raspi-config[311]: No. Switching to ondemand scaling governor.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar  3 09:08:45 rhf2s008 kbd[309]: Setting console screen modes.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Trigger Flushing of Journal to Persistent Storage.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.253080] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.255315] FS-Cache: Netfs 'nfs' registered for caching
+Mar  3 09:08:45 rhf2s008 kbd[309]: setterm: $TERM is not defined.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.256216] NFS: Registering the id_resolver key type
+Mar  3 09:08:45 rhf2s008 kernel: [    0.256256] Key type id_resolver registered
+Mar  3 09:08:45 rhf2s008 kernel: [    0.256266] Key type id_legacy registered
+Mar  3 09:08:45 rhf2s008 kernel: [    0.258618] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started LSB: Prepare console.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.258744] io scheduler noop registered
+Mar  3 09:08:45 rhf2s008 kernel: [    0.258762] io scheduler deadline registered (default)
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.258813] io scheduler cfq registered
+Mar  3 09:08:45 rhf2s008 kernel: [    0.261330] BCM2708FB: allocated DMA memory fac10000
+Mar  3 09:08:45 rhf2s008 kernel: [    0.261355] BCM2708FB: allocated DMA channel 0 @ f3007000
+Mar  3 09:08:45 rhf2s008 kernel: [    0.270108] Console: switching to colour frame buffer device 82x26
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting LSB: Set console font and keymap...
+Mar  3 09:08:45 rhf2s008 kernel: [    0.274939] Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+Mar  3 09:08:45 rhf2s008 kernel: [    0.276591] 3f215040.uart: ttyS0 at MMIO 0x3f215040 (irq = 59, base_baud = 31250000) is a 16550
+Mar  3 09:08:45 rhf2s008 kernel: [    0.277750] bcm2835-rng 3f104000.rng: hwrng registered
+Mar  3 09:08:45 rhf2s008 console-setup[362]: Setting up console font and keymap...done.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.277849] vc-cma: Videocore CMA driver
+Mar  3 09:08:45 rhf2s008 kernel: [    0.277858] vc-cma: vc_cma_base      = 0x00000000
+Mar  3 09:08:45 rhf2s008 kernel: [    0.277867] vc-cma: vc_cma_size      = 0x00000000 (0 MiB)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.277876] vc-cma: vc_cma_initial   = 0x00000000 (0 MiB)
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started LSB: Set console font and keymap.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.278124] vc-mem: phys_addr:0x00000000 mem_base=0x3dc00000 mem_size:0x3f000000(1008 MiB)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.292926] brd: module loaded
+Mar  3 09:08:45 rhf2s008 kernel: [    0.301474] loop: module loaded
+Mar  3 09:08:45 rhf2s008 kernel: [    0.302360] vchiq: vchiq_init_state: slot_zero = 0xbac80000, is_master = 0
+Mar  3 09:08:45 rhf2s008 networking[312]: Configuring network interfaces...done.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.303756] Loading iSCSI transport class v2.0-870.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.304401] usbcore: registered new interface driver smsc95xx
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started LSB: Raise network interfaces..
+Mar  3 09:08:45 rhf2s008 kernel: [    0.304454] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.504738] Core Release: 2.80a
+Mar  3 09:08:45 rhf2s008 kernel: [    0.504751] Setting default values for core params
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting System Initialization.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.504785] Finished setting default values for core params
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705150] Using Buffer DMA mode
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705161] Periodic Transfer Interrupt Enhancement - disabled
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705170] Multiprocessor Interrupt Enhancement - disabled
+Mar  3 09:08:45 rhf2s008 systemd[1]: Reached target System Initialization.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705179] OTG VER PARAM: 0, OTG VER FLAG: 0
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705193] Dedicated Tx FIFOs mode
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Avahi mDNS/DNS-SD Stack Activation Socket.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705491] WARN::dwc_otg_hcd_init:1047: FIQ DMA bounce buffers: virt = 0xbac04000 dma = 0xfac04000 len=9024
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705520] FIQ FSM acceleration enabled for :
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705520] Non-periodic Split Transactions
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705520] Periodic Split Transactions
+Mar  3 09:08:45 rhf2s008 systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705520] High-Speed Isochronous Endpoints
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705520] Interrupt/Control Split Transaction hack enabled
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705543] dwc_otg: Microframe scheduler enabled
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting D-Bus System Message Bus Socket.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705585] WARN::hcd_init_fiq:415: FIQ on core 1 at 0x80448d28
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705599] WARN::hcd_init_fiq:416: FIQ ASM at 0x80449098 length 36
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705613] WARN::hcd_init_fiq:441: MPHI regs_base at 0xbb87e000
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705674] dwc_otg 3f980000.usb: DWC OTG Controller
+Mar  3 09:08:45 rhf2s008 systemd[1]: Listening on D-Bus System Message Bus Socket.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705710] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705745] dwc_otg 3f980000.usb: irq 62, io mem 0x00000000
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Sockets.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705796] Init: Port Power? op_state=1
+Mar  3 09:08:45 rhf2s008 kernel: [    0.705804] Init: Power Port (0)
+Mar  3 09:08:45 rhf2s008 systemd[1]: Reached target Sockets.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.706000] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Mar  3 09:08:45 rhf2s008 kernel: [    0.706014] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar  3 09:08:45 rhf2s008 kernel: [    0.706027] usb usb1: Product: DWC OTG Controller
+Mar  3 09:08:45 rhf2s008 kernel: [    0.706039] usb usb1: Manufacturer: Linux 4.4.50-v7+ dwc_otg_hcd
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Daily Cleanup of Temporary Directories.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.706051] usb usb1: SerialNumber: 3f980000.usb
+Mar  3 09:08:45 rhf2s008 kernel: [    0.706868] hub 1-0:1.0: USB hub found
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Timers.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.706912] hub 1-0:1.0: 1 port detected
+Mar  3 09:08:45 rhf2s008 systemd[1]: Reached target Timers.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.707618] dwc_otg: FIQ enabled
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Manage Sound Card State (restore and store).
+Mar  3 09:08:45 rhf2s008 kernel: [    0.707627] dwc_otg: NAK holdoff enabled
+Mar  3 09:08:45 rhf2s008 kernel: [    0.707636] dwc_otg: FIQ split-transaction FSM enabled
+Mar  3 09:08:45 rhf2s008 kernel: [    0.707670] Module dwc_common_port init
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Restore Sound Card State...
+Mar  3 09:08:45 rhf2s008 kernel: [    0.707900] usbcore: registered new interface driver usb-storage
+Mar  3 09:08:45 rhf2s008 kernel: [    0.708171] mousedev: PS/2 mouse device common for all mice
+Mar  3 09:08:45 rhf2s008 kernel: [    0.708908] bcm2835-cpufreq: min=600000 max=1200000
+Mar  3 09:08:45 rhf2s008 kernel: [    0.709170] sdhci: Secure Digital Host Controller Interface driver
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Basic System.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.709179] sdhci: Copyright(c) Pierre Ossman
+Mar  3 09:08:45 rhf2s008 kernel: [    0.711356] sdhost: log_buf @ bac07000 (fac07000)
+Mar  3 09:08:45 rhf2s008 systemd[1]: Reached target Basic System.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.767963] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.768177] sdhci-pltfm: SDHCI platform and OF driver helper
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting dhcpcd on all interfaces...
+Mar  3 09:08:45 rhf2s008 kernel: [    0.768547] ledtrig-cpu: registered to indicate activity on CPUs
+Mar  3 09:08:45 rhf2s008 kernel: [    0.768655] hidraw: raw HID events driver (C) Jiri Kosina
+Mar  3 09:08:45 rhf2s008 kernel: [    0.768819] usbcore: registered new interface driver usbhid
+Mar  3 09:08:45 rhf2s008 kernel: [    0.768828] usbhid: USB HID core driver
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Turn on SSH if /boot/ssh is present.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.769391] Initializing XFRM netlink socket
+Mar  3 09:08:45 rhf2s008 kernel: [    0.769425] NET: Registered protocol family 17
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Configure Bluetooth Modems connected by UART.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.769561] Key type dns_resolver registered
+Mar  3 09:08:45 rhf2s008 kernel: [    0.770070] Registering SWP/SWPB emulation handler
+Mar  3 09:08:45 rhf2s008 kernel: [    0.770791] registered taskstats version 1
+Mar  3 09:08:45 rhf2s008 kernel: [    0.770976] vc-sm: Videocore shared memory driver
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Mar  3 09:08:45 rhf2s008 kernel: [    0.770991] [vc_sm_connected_init]: start
+Mar  3 09:08:45 rhf2s008 kernel: [    0.788624] [vc_sm_connected_init]: end - returning 0
+Mar  3 09:08:45 rhf2s008 kernel: [    0.788954] of_cfs_init
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting System Logging Service...
+Mar  3 09:08:45 rhf2s008 kernel: [    0.789062] of_cfs_init: OK
+Mar  3 09:08:45 rhf2s008 kernel: [    0.789892] Waiting for root device /dev/mmcblk0p2...
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Restore /etc/resolv.conf if the system crashed before the ppp link was shut down....
+Mar  3 09:08:45 rhf2s008 kernel: [    0.830713] mmc0: MAN_BKOPS_EN bit is not set
+Mar  3 09:08:45 rhf2s008 kernel: [    0.832477] mmc0: new high speed MMC card at address 0001
+Mar  3 09:08:45 rhf2s008 kernel: [    0.833096] mmcblk0: mmc0:0001 4FPD3R 3.64 GiB
+Mar  3 09:08:45 rhf2s008 kernel: [    0.833359] mmcblk0boot0: mmc0:0001 4FPD3R partition 1 4.00 MiB
+Mar  3 09:08:45 rhf2s008 kernel: [    0.833612] mmcblk0boot1: mmc0:0001 4FPD3R partition 2 4.00 MiB
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Regular background program processing daemon...
+Mar  3 09:08:45 rhf2s008 kernel: [    0.833852] mmcblk0rpmb: mmc0:0001 4FPD3R partition 3 512 KiB
+Mar  3 09:08:45 rhf2s008 kernel: [    0.835139]  mmcblk0: p1 p2
+Mar  3 09:08:45 rhf2s008 kernel: [    0.898048] Indeed it is in host mode hprt0 = 00021501
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Regular background program processing daemon.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.968138] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Mar  3 09:08:45 rhf2s008 kernel: [    0.968185] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Mar  3 09:08:45 rhf2s008 kernel: [    0.975299] devtmpfs: mounted
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting D-Bus System Message Bus...
+Mar  3 09:08:45 rhf2s008 kernel: [    0.976053] Freeing unused kernel memory: 476K (807eb000 - 80862000)
+Mar  3 09:08:45 rhf2s008 kernel: [    1.077981] usb 1-1: new high-speed USB device number 2 using dwc_otg
+Mar  3 09:08:45 rhf2s008 kernel: [    1.078135] Indeed it is in host mode hprt0 = 00001101
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started D-Bus System Message Bus.
+Mar  3 09:08:45 rhf2s008 kernel: [    1.225745] random: systemd: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+Mar  3 09:08:45 rhf2s008 kernel: [    1.278253] usb 1-1: New USB device found, idVendor=0424, idProduct=9512
+Mar  3 09:08:45 rhf2s008 dhcpcd[462]: version 6.7.1 starting
+Mar  3 09:08:45 rhf2s008 kernel: [    1.278273] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Mar  3 09:08:45 rhf2s008 kernel: [    1.279066] hub 1-1:1.0: USB hub found
+Mar  3 09:08:45 rhf2s008 kernel: [    1.279166] hub 1-1:1.0: 3 ports detected
+Mar  3 09:08:45 rhf2s008 kernel: [    1.320360] NET: Registered protocol family 10
+Mar  3 09:08:45 rhf2s008 cron[467]: (CRON) INFO (pidfile fd = 3)
+Mar  3 09:08:45 rhf2s008 kernel: [    1.391323] uart-pl011 3f201000.uart: no DMA platform data
+Mar  3 09:08:45 rhf2s008 kernel: [    1.426108] random: systemd-sysv-ge: uninitialized urandom read (16 bytes read, 55 bits of entropy available)
+Mar  3 09:08:45 rhf2s008 kernel: [    1.504938] random: systemd: uninitialized urandom read (16 bytes read, 63 bits of entropy available)
+Mar  3 09:08:45 rhf2s008 dhcpcd[462]: dev: loaded udev
+Mar  3 09:08:45 rhf2s008 kernel: [    1.506206] random: systemd: uninitialized urandom read (16 bytes read, 63 bits of entropy available)
+Mar  3 09:08:45 rhf2s008 kernel: [    1.507618] random: systemd: uninitialized urandom read (16 bytes read, 63 bits of entropy available)
+Mar  3 09:08:45 rhf2s008 cron[467]: (CRON) INFO (Running @reboot jobs)
+Mar  3 09:08:45 rhf2s008 kernel: [    1.521129] random: systemd: uninitialized urandom read (16 bytes read, 64 bits of entropy available)
+Mar  3 09:08:45 rhf2s008 kernel: [    1.521696] random: systemd: uninitialized urandom read (16 bytes read, 64 bits of entropy available)
+Mar  3 09:08:45 rhf2s008 kernel: [    1.521852] random: systemd: uninitialized urandom read (16 bytes read, 64 bits of entropy available)
+Mar  3 09:08:45 rhf2s008 kernel: [    1.540693] random: systemd: uninitialized urandom read (16 bytes read, 64 bits of entropy available)
+Mar  3 09:08:45 rhf2s008 kernel: [    1.547743] random: systemd: uninitialized urandom read (16 bytes read, 64 bits of entropy available)
+Mar  3 09:08:45 rhf2s008 dhcpcd[462]: eth0: adding address fe80::4785:e7c0:6d24:557c
+Mar  3 09:08:45 rhf2s008 kernel: [    1.558007] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+Mar  3 09:08:45 rhf2s008 avahi-daemon[463]: Found user 'avahi' (UID 105) and group 'avahi' (GID 110).
+Mar  3 09:08:45 rhf2s008 avahi-daemon[463]: Successfully dropped root privileges.
+Mar  3 09:08:45 rhf2s008 avahi-daemon[463]: avahi-daemon 0.6.31 starting up.
+Mar  3 09:08:45 rhf2s008 kernel: [    1.668321] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00
+Mar  3 09:08:45 rhf2s008 kernel: [    1.668345] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Mar  3 09:08:45 rhf2s008 kernel: [    1.671135] smsc95xx v1.0.4
+Mar  3 09:08:45 rhf2s008 kernel: [    1.732219] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:01:52:8f
+Mar  3 09:08:45 rhf2s008 kernel: [    1.808064] usb 1-1.2: new high-speed USB device number 4 using dwc_otg
+Mar  3 09:08:45 rhf2s008 kernel: [    1.909586] usb 1-1.2: New USB device found, idVendor=12d1, idProduct=15c1
+Mar  3 09:08:45 rhf2s008 kernel: [    1.909609] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Mar  3 09:08:45 rhf2s008 kernel: [    1.909622] usb 1-1.2: Product: HUAWEI Mobile V7R11
+Mar  3 09:08:45 rhf2s008 kernel: [    1.909635] usb 1-1.2: Manufacturer: Huawei Technologies Co., Ltd.
+Mar  3 09:08:45 rhf2s008 kernel: [    1.909651] usb 1-1.2: SerialNumber: 0123456789ABCDEF
+Mar  3 09:08:45 rhf2s008 kernel: [    2.791674] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+Mar  3 09:08:45 rhf2s008 kernel: [    3.610392] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+Mar  3 09:08:45 rhf2s008 kernel: [    3.610815] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Mar  3 09:08:45 rhf2s008 kernel: [    3.749773] bcm2835-wdt 3f100000.watchdog: Broadcom BCM2835 watchdog timer
+Mar  3 09:08:45 rhf2s008 kernel: [    3.764294] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+Mar  3 09:08:45 rhf2s008 kernel: [    3.856546] usbcore: registered new interface driver usbserial
+Mar  3 09:08:45 rhf2s008 kernel: [    3.856654] usbcore: registered new interface driver usbserial_generic
+Mar  3 09:08:45 rhf2s008 kernel: [    3.856745] usbserial: USB Serial support registered for generic
+Mar  3 09:08:45 rhf2s008 kernel: [    3.868391] cdc_ether 1-1.2:2.0 usb0: register 'cdc_ether' at usb-3f980000.usb-1.2, CDC Ethernet Device, 02:1e:10:1f:00:00
+Mar  3 09:08:45 rhf2s008 kernel: [    3.868638] usbcore: registered new interface driver cdc_ether
+Mar  3 09:08:45 rhf2s008 kernel: [    3.881153] usbcore: registered new interface driver option
+Mar  3 09:08:45 rhf2s008 kernel: [    3.881287] usbserial: USB Serial support registered for GSM modem (1-port)
+Mar  3 09:08:45 rhf2s008 kernel: [    3.882089] option 1-1.2:2.2: GSM modem (1-port) converter detected
+Mar  3 09:08:45 rhf2s008 kernel: [    3.882550] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB0
+Mar  3 09:08:45 rhf2s008 kernel: [    3.882817] option 1-1.2:2.3: GSM modem (1-port) converter detected
+Mar  3 09:08:45 rhf2s008 kernel: [    3.883204] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB1
+Mar  3 09:08:45 rhf2s008 kernel: [    3.883459] option 1-1.2:2.4: GSM modem (1-port) converter detected
+Mar  3 09:08:45 rhf2s008 kernel: [    3.884507] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB2
+Mar  3 09:08:45 rhf2s008 kernel: [    3.884795] option 1-1.2:2.5: GSM modem (1-port) converter detected
+Mar  3 09:08:45 rhf2s008 kernel: [    3.885214] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB3
+Mar  3 09:08:45 rhf2s008 kernel: [    3.885482] option 1-1.2:2.6: GSM modem (1-port) converter detected
+Mar  3 09:08:45 rhf2s008 kernel: [    3.885915] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB4
+Mar  3 09:08:45 rhf2s008 kernel: [    3.950023] cdc_ether 1-1.2:2.0 usb0: kevent 12 may have been dropped
+Mar  3 09:08:45 rhf2s008 kernel: [    5.230634] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Mar  3 09:08:45 rhf2s008 kernel: [    5.231288] smsc95xx 1-1.1:1.0 eth0: link up, 100Mbps, full-duplex, lpa 0xCDE1
+Mar  3 09:08:45 rhf2s008 kernel: [    5.349796] cfg80211: World regulatory domain updated:
+Mar  3 09:08:45 rhf2s008 kernel: [    5.349816] cfg80211:  DFS Master region: unset
+Mar  3 09:08:45 rhf2s008 kernel: [    5.349823] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+Mar  3 09:08:45 rhf2s008 kernel: [    5.349832] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+Mar  3 09:08:45 rhf2s008 kernel: [    5.349840] cfg80211:   (2457000 KHz - 2482000 KHz @ 20000 KHz, 92000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+Mar  3 09:08:45 rhf2s008 kernel: [    5.349846] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+Mar  3 09:08:45 rhf2s008 kernel: [    5.349854] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+Mar  3 09:08:45 rhf2s008 kernel: [    5.349861] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+Mar  3 09:08:45 rhf2s008 kernel: [    5.349869] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2000 mBm), (0 s)
+Mar  3 09:08:45 rhf2s008 kernel: [    5.349875] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+Mar  3 09:08:45 rhf2s008 kernel: [    5.349882] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+Mar  3 09:08:45 rhf2s008 avahi-daemon[463]: Successfully called chroot().
+Mar  3 09:08:45 rhf2s008 avahi-daemon[463]: Successfully dropped remaining capabilities.
+Mar  3 09:08:45 rhf2s008 avahi-daemon[463]: No service file found in /etc/avahi/services.
+Mar  3 09:08:45 rhf2s008 avahi-daemon[463]: Joining mDNS multicast group on interface usb0.IPv6 with address fe80::1e:10ff:fe1f:0.
+Mar  3 09:08:45 rhf2s008 avahi-daemon[463]: New relevant interface usb0.IPv6 for mDNS.
+Mar  3 09:08:45 rhf2s008 avahi-daemon[463]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::4785:e7c0:6d24:557c.
+Mar  3 09:08:45 rhf2s008 avahi-daemon[463]: New relevant interface eth0.IPv6 for mDNS.
+Mar  3 09:08:45 rhf2s008 avahi-daemon[463]: Network interface enumeration completed.
+Mar  3 09:08:45 rhf2s008 avahi-daemon[463]: Registering new address record for fe80::1e:10ff:fe1f:0 on usb0.*.
+Mar  3 09:08:45 rhf2s008 avahi-daemon[463]: Registering new address record for fe80::4785:e7c0:6d24:557c on eth0.*.
+Mar  3 09:08:45 rhf2s008 avahi-daemon[463]: Registering HINFO record with values 'ARMV7L'/'LINUX'.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting Login Service...
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Starting LSB: triggerhappy hotkey daemon...
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started System Logging Service.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Restore Sound Card State.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Restore /etc/resolv.conf if the system crashed before the ppp link was shut down..
+Mar  3 09:08:45 rhf2s008 triggerhappy[528]: Error opening '/dev/input/event*': No such file or directory
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started Login Service.
+Mar  3 09:08:45 rhf2s008 systemd[1]: Started LSB: triggerhappy hotkey daemon.
+Mar  3 09:08:45 rhf2s008 dhcpcd[462]: eth0: waiting for carrier
+Mar  3 09:08:45 rhf2s008 dhcpcd[462]: usb0: waiting for carrier
+Mar  3 09:08:45 rhf2s008 dhcpcd[462]: eth0: carrier acquired
+Mar  3 09:08:45 rhf2s008 dhcpcd[462]: DUID 00:01:00:01:20:4c:53:e1:02:1e:10:1f:00:00
+Mar  3 09:08:45 rhf2s008 dhcpcd[462]: eth0: IAID eb:01:52:8f
+Mar  3 09:08:45 rhf2s008 ifplugd(eth0)[238]: Link beat detected.
+Mar  3 09:08:45 rhf2s008 ifplugd(eth0)[238]: Executing '/etc/ifplugd/ifplugd.action eth0 up'.
+Mar  3 09:08:45 rhf2s008 ifplugd(eth0)[238]: client: unknown
+Mar  3 09:08:46 rhf2s008 ifplugd(eth0)[238]: client: disabled
+Mar  3 09:08:46 rhf2s008 ifplugd(eth0)[238]: Program executed successfully.
+Mar  3 09:08:46 rhf2s008 dhcpcd[462]: eth0: rebinding lease of 192.168.1.246
+Mar  3 09:08:46 rhf2s008 dhcpcd[462]: eth0: soliciting an IPv6 router
+Mar  3 09:08:46 rhf2s008 avahi-daemon[463]: Server startup complete. Host name is rhf2s008.local. Local service cookie is 2828840256.
+Mar  3 09:08:47 rhf2s008 kernel: [    7.324483] random: nonblocking pool is initialized
+Mar  3 09:08:51 rhf2s008 dhcpcd[462]: eth0: leased 192.168.1.246 for 86400 seconds
+Mar  3 09:08:51 rhf2s008 avahi-daemon[463]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.1.246.
+Mar  3 09:08:51 rhf2s008 dhcpcd[462]: eth0: adding route to 192.168.1.0/24
+Mar  3 09:08:51 rhf2s008 avahi-daemon[463]: New relevant interface eth0.IPv4 for mDNS.
+Mar  3 09:08:51 rhf2s008 dhcpcd[462]: eth0: adding default route via 192.168.1.1
+Mar  3 09:08:51 rhf2s008 avahi-daemon[463]: Registering new address record for 192.168.1.246 on eth0.IPv4.
+Mar  3 09:08:51 rhf2s008 dhcpcd[462]: forked to background, child pid 716
+Mar  3 09:08:51 rhf2s008 systemd[1]: Started dhcpcd on all interfaces.
+Mar  3 09:08:51 rhf2s008 systemd[1]: Starting Network.
+Mar  3 09:08:51 rhf2s008 systemd[1]: Reached target Network.
+Mar  3 09:08:51 rhf2s008 systemd[1]: Starting OpenBSD Secure Shell server...
+Mar  3 09:08:51 rhf2s008 systemd[1]: Started OpenBSD Secure Shell server.
+Mar  3 09:08:51 rhf2s008 systemd[1]: Starting /etc/rc.local Compatibility...
+Mar  3 09:08:51 rhf2s008 systemd[1]: Starting Permit User Sessions...
+Mar  3 09:08:51 rhf2s008 systemd[1]: Starting Network is Online.
+Mar  3 09:08:51 rhf2s008 systemd[1]: Reached target Network is Online.
+Mar  3 09:08:51 rhf2s008 systemd[1]: Starting packet forwarder...
+Mar  3 09:08:51 rhf2s008 systemd[1]: Started packet forwarder.
+Mar  3 09:08:51 rhf2s008 systemd[1]: Starting LSB: Start NTP daemon...
+Mar  3 09:08:51 rhf2s008 systemd[1]: Starting LSB: Brings up/down network automatically...
+Mar  3 09:08:51 rhf2s008 systemd[1]: Started Permit User Sessions.
+Mar  3 09:08:51 rhf2s008 ifplugd[725]: Network Interface Plugging Daemon...Process 238 died: No such process; trying to remove PID file. (/var/run/ifplugd.eth0.pid)
+Mar  3 09:08:51 rhf2s008 ifplugd(eth0)[769]: ifplugd 0.28 initializing.
+Mar  3 09:08:51 rhf2s008 ifplugd(eth0)[769]: Using interface eth0/B8:27:EB:01:52:8F with driver <smsc95xx> (version: 22-Aug-2005)
+Mar  3 09:08:51 rhf2s008 ifplugd(eth0)[769]: Using detection mode: SIOCETHTOOL
+Mar  3 09:08:51 rhf2s008 ifplugd(eth0)[769]: Initialization complete, link beat detected.
+Mar  3 09:08:51 rhf2s008 ntpd[756]: ntpd 4.2.6p5@1.2349-o Mon Jul 25 22:35:28 UTC 2016 (1)
+Mar  3 09:08:51 rhf2s008 ntp[723]: Starting NTP server: ntpd.
+Mar  3 09:08:51 rhf2s008 ntpd[773]: proto: precision = 0.521 usec
+Mar  3 09:08:51 rhf2s008 ntpd[773]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Mar  3 09:08:51 rhf2s008 systemd[1]: Started LSB: Start NTP daemon.
+Mar  3 09:08:51 rhf2s008 ntpd[773]: Listen and drop on 1 v6wildcard :: UDP 123
+Mar  3 09:08:51 rhf2s008 ntpd[773]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Mar  3 09:08:51 rhf2s008 ntpd[773]: Listen normally on 3 eth0 192.168.1.246 UDP 123
+Mar  3 09:08:51 rhf2s008 ntpd[773]: Listen normally on 4 lo ::1 UDP 123
+Mar  3 09:08:51 rhf2s008 ntpd[773]: Listen normally on 5 usb0 fe80::1e:10ff:fe1f:0 UDP 123
+Mar  3 09:08:51 rhf2s008 ntpd[773]: Listen normally on 6 eth0 fe80::4785:e7c0:6d24:557c UDP 123
+Mar  3 09:08:51 rhf2s008 ntpd[773]: peers refreshed
+Mar  3 09:08:51 rhf2s008 ntpd[773]: Listening on routing socket on fd #23 for interface updates
+Mar  3 09:08:51 rhf2s008 ifplugd(eth0)[769]: Executing '/etc/ifplugd/ifplugd.action eth0 up'.
+Mar  3 09:08:51 rhf2s008 ifplugd(eth0)[769]: client: unknown
+Mar  3 09:08:51 rhf2s008 ifplugd(eth0)[769]: client: disabled
+Mar  3 09:08:51 rhf2s008 ifplugd(eth0)[769]: client: /sbin/ifup: interface eth0 already configured
+Mar  3 09:08:52 rhf2s008 pktfwd.sh[721]: Gateway reset successfully
+Mar  3 09:08:52 rhf2s008 pktfwd.sh[721]: Packet_forwarder V2 protocol seltected
+Mar  3 09:08:52 rhf2s008 ifplugd(eth0)[769]: Program executed successfully.
+Mar  3 09:08:52 rhf2s008 ifplugd[725]: start eth0...done.
+Mar  3 09:08:52 rhf2s008 systemd[1]: Started LSB: Brings up/down network automatically.
+Mar  3 09:08:52 rhf2s008 systemd[1]: Started /etc/rc.local Compatibility.
+Mar  3 09:08:52 rhf2s008 systemd[1]: Starting Hold until boot process finishes up...
+Mar  3 09:08:52 rhf2s008 systemd[1]: Starting Terminate Plymouth Boot Screen...
+Mar  3 09:08:52 rhf2s008 systemd[1]: Received SIGRTMIN+21 from PID 214 (plymouthd).
+Mar  3 09:08:52 rhf2s008 systemd[1]: Started Terminate Plymouth Boot Screen.
+Mar  3 09:08:52 rhf2s008 systemd[1]: Started Hold until boot process finishes up.
+Mar  3 09:08:52 rhf2s008 systemd[1]: Starting Getty on tty1...
+Mar  3 09:08:52 rhf2s008 systemd[1]: Started Getty on tty1.
+Mar  3 09:08:52 rhf2s008 systemd[1]: Starting Serial Getty on ttyAMA0...
+Mar  3 09:08:52 rhf2s008 systemd[1]: Started Serial Getty on ttyAMA0.
+Mar  3 09:08:52 rhf2s008 systemd[1]: Starting Login Prompts.
+Mar  3 09:08:52 rhf2s008 systemd[1]: Reached target Login Prompts.
+Mar  3 09:08:52 rhf2s008 systemd[1]: Starting Multi-User System.
+Mar  3 09:08:52 rhf2s008 systemd[1]: Reached target Multi-User System.
+Mar  3 09:08:52 rhf2s008 systemd[1]: Starting Graphical Interface.
+Mar  3 09:08:52 rhf2s008 systemd[1]: Reached target Graphical Interface.
+Mar  3 09:08:52 rhf2s008 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar  3 09:08:52 rhf2s008 systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar  3 09:08:52 rhf2s008 systemd[1]: Startup finished in 1.158s (kernel) + 10.879s (userspace) = 12.037s.
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: *** Beacon Packet Forwarder for Lora Gateway ***
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: Version: 4.0.1
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: *** Lora concentrator HAL library version info ***
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: Version: RHF_5.0.1;
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: ***
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: Little endian host
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: found global configuration file global_conf.json, parsing it
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: global_conf.json does contain a JSON object named SX1301_conf, parsing SX1301 parameters
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: lorawan_public 1, clksrc 1
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: LBT is disabled
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: antenna_gain 0 dBi
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: Configuring TX LUT with 16 indexes
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: radio 0 enabled (type SX1257), center frequency 867500000, RSSI offset -166.000000, tx enabled 1, tx_notch_freq 129000
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: radio 1 enabled (type SX1257), center frequency 868500000, RSSI offset -166.000000, tx enabled 0, tx_notch_freq 0
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: Lora multi-SF channel 0>  radio 1, IF -400000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: Lora multi-SF channel 1>  radio 1, IF -200000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: Lora multi-SF channel 2>  radio 1, IF 0 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: Lora multi-SF channel 3>  radio 0, IF -400000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: Lora multi-SF channel 4>  radio 0, IF -200000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: Lora multi-SF channel 5>  radio 0, IF 0 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: Lora multi-SF channel 6>  radio 0, IF 200000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: Lora multi-SF channel 7>  radio 0, IF 400000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: Lora std channel> radio 1, IF -200000 Hz, 250000 Hz bw, SF 7
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: FSK channel> radio 1, IF 300000 Hz, 125000 Hz bw, 50000 bps datarate
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: gateway MAC address is configured to AA555A0000000000
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: server hostname or IP address is configured to "localhost"
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: upstream port is configured to "1680"
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: downstream port is configured to "1680"
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: downstream keep-alive interval is configured to 10 seconds
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: statistics display interval is configured to 30 seconds
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: upstream PUSH_DATA time-out is configured to 100 ms
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: packets received with a valid CRC will be forwarded
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: packets received with a CRC error will NOT be forwarded
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: packets received with no CRC will NOT be forwarded
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: found local configuration file local_conf.json, parsing it
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: redefined parameters will overwrite global parameters
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: local_conf.json does not contain a JSON object named SX1301_conf
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: gateway MAC address is configured to B827EBFFFE01528F
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: server hostname or IP address is configured to "192.168.1.102"
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: upstream port is configured to "8001"
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: downstream port is configured to "8001"
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: packets received with a valid CRC will be forwarded
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: packets received with a CRC error will NOT be forwarded
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: packets received with no CRC will NOT be forwarded
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: INFO: open /dev/spidev0.0 interface
+Mar  3 09:08:56 rhf2s008 pktfwd.sh[721]: ERROR: [main] failed to start the concentrator
+Mar  3 09:08:56 rhf2s008 gwrst[806]: Gateway reset successfully
+Mar  3 09:08:58 rhf2s008 dhcpcd[716]: eth0: no IPv6 Routers available
+Mar  3 09:09:18 rhf2s008 systemd[1]: Time has been changed
+Mar  3 09:09:20 rhf2s008 systemd[1]: pktfwd.service holdoff time over, scheduling restart.
+Mar  3 09:09:20 rhf2s008 systemd[1]: Stopping packet forwarder...
+Mar  3 09:09:20 rhf2s008 systemd[1]: Starting packet forwarder...
+Mar  3 09:09:20 rhf2s008 systemd[1]: Started packet forwarder.
+Mar  3 09:09:20 rhf2s008 pktfwd.sh[813]: Gateway reset successfully
+Mar  3 09:09:20 rhf2s008 pktfwd.sh[813]: Packet_forwarder V2 protocol seltected
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: *** Beacon Packet Forwarder for Lora Gateway ***
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: Version: 4.0.1
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: *** Lora concentrator HAL library version info ***
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: Version: RHF_5.0.1;
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: ***
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: Little endian host
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: found global configuration file global_conf.json, parsing it
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: global_conf.json does contain a JSON object named SX1301_conf, parsing SX1301 parameters
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: lorawan_public 1, clksrc 1
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: LBT is disabled
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: antenna_gain 0 dBi
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: Configuring TX LUT with 16 indexes
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: radio 0 enabled (type SX1257), center frequency 867500000, RSSI offset -166.000000, tx enabled 1, tx_notch_freq 129000
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: radio 1 enabled (type SX1257), center frequency 868500000, RSSI offset -166.000000, tx enabled 0, tx_notch_freq 0
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: Lora multi-SF channel 0>  radio 1, IF -400000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: Lora multi-SF channel 1>  radio 1, IF -200000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: Lora multi-SF channel 2>  radio 1, IF 0 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: Lora multi-SF channel 3>  radio 0, IF -400000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: Lora multi-SF channel 4>  radio 0, IF -200000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: Lora multi-SF channel 5>  radio 0, IF 0 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: Lora multi-SF channel 6>  radio 0, IF 200000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:09:25 rhf2s008 rsyslogd-2007: action 'action 17' suspended, next retry is Wed Mar  3 09:09:55 2021 [try http://www.rsyslog.com/e/2007 ]
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: Lora multi-SF channel 7>  radio 0, IF 400000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: Lora std channel> radio 1, IF -200000 Hz, 250000 Hz bw, SF 7
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: FSK channel> radio 1, IF 300000 Hz, 125000 Hz bw, 50000 bps datarate
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: gateway MAC address is configured to AA555A0000000000
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: server hostname or IP address is configured to "localhost"
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: upstream port is configured to "1680"
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: downstream port is configured to "1680"
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: downstream keep-alive interval is configured to 10 seconds
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: statistics display interval is configured to 30 seconds
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: upstream PUSH_DATA time-out is configured to 100 ms
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: packets received with a valid CRC will be forwarded
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: packets received with a CRC error will NOT be forwarded
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: packets received with no CRC will NOT be forwarded
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: found local configuration file local_conf.json, parsing it
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: redefined parameters will overwrite global parameters
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: local_conf.json does not contain a JSON object named SX1301_conf
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: gateway MAC address is configured to B827EBFFFE01528F
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: server hostname or IP address is configured to "192.168.1.102"
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: upstream port is configured to "8001"
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: downstream port is configured to "8001"
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: packets received with a valid CRC will be forwarded
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: packets received with a CRC error will NOT be forwarded
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: packets received with no CRC will NOT be forwarded
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: INFO: open /dev/spidev0.0 interface
+Mar  3 09:09:25 rhf2s008 pktfwd.sh[813]: ERROR: [main] failed to start the concentrator
+Mar  3 09:09:25 rhf2s008 gwrst[853]: Gateway reset successfully
+Mar  3 09:09:30 rhf2s008 systemd[1]: pktfwd.service holdoff time over, scheduling restart.
+Mar  3 09:09:30 rhf2s008 systemd[1]: Stopping packet forwarder...
+Mar  3 09:09:30 rhf2s008 systemd[1]: Starting packet forwarder...
+Mar  3 09:09:30 rhf2s008 systemd[1]: Started packet forwarder.
+Mar  3 09:09:30 rhf2s008 pktfwd.sh[860]: Gateway reset successfully
+Mar  3 09:09:30 rhf2s008 pktfwd.sh[860]: Packet_forwarder V2 protocol seltected
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: *** Beacon Packet Forwarder for Lora Gateway ***
+Mar  3 09:10:07 rhf2s008 rsyslogd-2007: action 'action 17' suspended, next retry is Wed Mar  3 09:10:37 2021 [try http://www.rsyslog.com/e/2007 ]
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: Version: 4.0.1
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: *** Lora concentrator HAL library version info ***
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: Version: RHF_5.0.1;
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: ***
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: Little endian host
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: found global configuration file global_conf.json, parsing it
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: global_conf.json does contain a JSON object named SX1301_conf, parsing SX1301 parameters
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: lorawan_public 1, clksrc 1
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: LBT is disabled
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: antenna_gain 0 dBi
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: Configuring TX LUT with 16 indexes
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: radio 0 enabled (type SX1257), center frequency 867500000, RSSI offset -166.000000, tx enabled 1, tx_notch_freq 129000
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: radio 1 enabled (type SX1257), center frequency 868500000, RSSI offset -166.000000, tx enabled 0, tx_notch_freq 0
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: Lora multi-SF channel 0>  radio 1, IF -400000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: Lora multi-SF channel 1>  radio 1, IF -200000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: Lora multi-SF channel 2>  radio 1, IF 0 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: Lora multi-SF channel 3>  radio 0, IF -400000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: Lora multi-SF channel 4>  radio 0, IF -200000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: Lora multi-SF channel 5>  radio 0, IF 0 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: Lora multi-SF channel 6>  radio 0, IF 200000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: Lora multi-SF channel 7>  radio 0, IF 400000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: Lora std channel> radio 1, IF -200000 Hz, 250000 Hz bw, SF 7
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: FSK channel> radio 1, IF 300000 Hz, 125000 Hz bw, 50000 bps datarate
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: gateway MAC address is configured to AA555A0000000000
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: server hostname or IP address is configured to "localhost"
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: upstream port is configured to "1680"
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: downstream port is configured to "1680"
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: downstream keep-alive interval is configured to 10 seconds
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: statistics display interval is configured to 30 seconds
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: upstream PUSH_DATA time-out is configured to 100 ms
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: packets received with a valid CRC will be forwarded
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: packets received with a CRC error will NOT be forwarded
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: packets received with no CRC will NOT be forwarded
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: found local configuration file local_conf.json, parsing it
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: redefined parameters will overwrite global parameters
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: local_conf.json does not contain a JSON object named SX1301_conf
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: gateway MAC address is configured to B827EBFFFE01528F
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: server hostname or IP address is configured to "192.168.1.102"
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: upstream port is configured to "8001"
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: downstream port is configured to "8001"
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: packets received with a valid CRC will be forwarded
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: packets received with a CRC error will NOT be forwarded
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: packets received with no CRC will NOT be forwarded
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: open /dev/spidev0.0 interface
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: [main] concentrator started, packet can now be received
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: Disabling GPS mode for concentrator's counter...
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: host/sx1301 time offset=(1614762572s:509995µs) - drift=898102059µs
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: Enabling GPS mode for concentrator's counter.
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: ##### 2021-03-03 09:10:07 GMT #####
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: ### [UPSTREAM] ###
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: # RF packets received by concentrator: 1
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: # CRC_OK: 0.00%, CRC_FAIL: 100.00%, NO_CRC: 0.00%
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: # RF packets forwarded: 0 (0 bytes)
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: # PUSH_DATA datagrams sent: 0 (0 bytes)
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: # PUSH_DATA acknowledged: 0.00%
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: ### [DOWNSTREAM] ###
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: # PULL_DATA sent: 3 (100.00% acknowledged)
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: # RF packets sent to concentrator: 0 (0 bytes)
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: # TX errors: 0
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: # BEACON queued: 0
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: # BEACON sent so far: 0
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: # BEACON rejected: 0
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: ### [JIT] ###
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: # SX1301 time (PPS): 34489941
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: ### [GPS] ###
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: # GPS sync is disabled
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: ##### END #####
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: JSON up: {"stat":{"time":"2021-03-03 09:10:07 GMT","rxnb":1,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0}}
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 09:10:07 rhf2s008 pktfwd.sh[860]: INFO: Received pkt from mote: 006E0137 (fcnt=236)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: JSON up: {"rxpk":[{"tmst":35236027,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":1.2,"rssi":-75,"size":64,"data":"QDcBbgCA7AAESrGOcCWkXCcWrUCD/xIYqljccMLOEFc5RhefzK3+5RLpUEPWkhLZdfveLIanNQGKFXCdC7iu/w=="}]}
+Mar  3 09:11:37 rhf2s008 rsyslogd-2007: action 'action 17' suspended, next retry is Wed Mar  3 09:12:07 2021 [try http://www.rsyslog.com/e/2007 ]
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ##### 2021-03-03 09:10:37 GMT #####
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ### [UPSTREAM] ###
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # RF packets received by concentrator: 1
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # RF packets forwarded: 1 (64 bytes)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # PUSH_DATA datagrams sent: 2 (371 bytes)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # PUSH_DATA acknowledged: 100.00%
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ### [DOWNSTREAM] ###
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # PULL_DATA sent: 3 (100.00% acknowledged)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # RF packets sent to concentrator: 0 (0 bytes)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # TX errors: 0
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # BEACON queued: 0
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # BEACON sent so far: 0
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # BEACON rejected: 0
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ### [JIT] ###
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # SX1301 time (PPS): 64489904
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ### [GPS] ###
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # GPS sync is disabled
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ##### END #####
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: Disabling GPS mode for concentrator's counter...
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: host/sx1301 time offset=(1614762572s:510131µs) - drift=136µs
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: Enabling GPS mode for concentrator's counter.
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: JSON up: {"stat":{"time":"2021-03-03 09:10:37 GMT","rxnb":1,"rxok":1,"rxfw":1,"ackr":100.0,"dwnb":0,"txnb":0}}
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: Received pkt from mote: 006E0137 (fcnt=236)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: JSON up: {"rxpk":[{"tmst":87082987,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":-6.5,"rssi":-75,"size":64,"data":"QDcBbgCA7AAESrGOcCWkXCcWrUCD/xIYqljccMLOEFc5RhefzK3+5RLpUEPWkhLZdfveLIanNQGKFXCdC7iu/w=="}]}
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: Received pkt from mote: 006E0137 (fcnt=236)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: JSON up: {"rxpk":[{"tmst":88408443,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":-6.2,"rssi":-75,"size":64,"data":"QDcBbgCA7AAESrGOcCWkXCcWrUCD/xIYqljccMLOEFc5RhefzK3+5RLpUEPWkhLZdfveLIanNQGKFXCdC7iu/w=="}]}
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: Received pkt from mote: 006E0137 (fcnt=236)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: JSON up: {"rxpk":[{"tmst":89733363,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":-5.5,"rssi":-75,"size":64,"data":"QDcBbgCA7AAESrGOcCWkXCcWrUCD/xIYqljccMLOEFc5RhefzK3+5RLpUEPWkhLZdfveLIanNQGKFXCdC7iu/w=="}]}
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ##### 2021-03-03 09:11:07 GMT #####
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ### [UPSTREAM] ###
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # RF packets received by concentrator: 3
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # RF packets forwarded: 3 (192 bytes)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # PUSH_DATA datagrams sent: 4 (896 bytes)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # PUSH_DATA acknowledged: 100.00%
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ### [DOWNSTREAM] ###
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # PULL_DATA sent: 3 (100.00% acknowledged)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # RF packets sent to concentrator: 0 (0 bytes)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # TX errors: 0
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # BEACON queued: 0
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # BEACON sent so far: 0
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # BEACON rejected: 0
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ### [JIT] ###
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # SX1301 time (PPS): 94489868
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ### [GPS] ###
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # GPS sync is disabled
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ##### END #####
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: JSON up: {"stat":{"time":"2021-03-03 09:11:07 GMT","rxnb":3,"rxok":3,"rxfw":3,"ackr":100.0,"dwnb":0,"txnb":0}}
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ##### 2021-03-03 09:11:37 GMT #####
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ### [UPSTREAM] ###
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # RF packets received by concentrator: 2
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # CRC_OK: 0.00%, CRC_FAIL: 100.00%, NO_CRC: 0.00%
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # RF packets forwarded: 0 (0 bytes)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # PUSH_DATA datagrams sent: 1 (113 bytes)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # PUSH_DATA acknowledged: 100.00%
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ### [DOWNSTREAM] ###
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # PULL_DATA sent: 3 (100.00% acknowledged)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # RF packets sent to concentrator: 0 (0 bytes)
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # TX errors: 0
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # BEACON queued: 0
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # BEACON sent so far: 0
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # BEACON rejected: 0
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ### [JIT] ###
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: # SX1301 time (PPS): 124489831
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+Mar  3 09:11:37 rhf2s008 pktfwd.sh[860]: ### [GPS] ###

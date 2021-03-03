@@ -1,0 +1,987 @@
+Mar  3 08:46:04 rhf2s008 rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="465" x-info="http://www.rsyslog.com"] start
+Mar  3 08:46:04 rhf2s008 systemd-modules-load[109]: Inserted module 'rhf_ds18b20'
+Mar  3 08:46:04 rhf2s008 systemd[1]: Mounted Configuration File System.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Apply Kernel Variables.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Create Static Device Nodes in /dev.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting udev Kernel Device Manager...
+Mar  3 08:46:04 rhf2s008 fake-hwclock[107]: Wed  3 Mar 08:46:01 UTC 2021
+Mar  3 08:46:04 rhf2s008 systemd-fsck[113]: e2fsck 1.42.12 (29-Aug-2014)
+Mar  3 08:46:04 rhf2s008 systemd-fsck[113]: /dev/mmcblk0p2: clean, 41671/234320 files, 254040/937216 blocks
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started udev Kernel Device Manager.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Copy rules generated while the root was ro...
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting LSB: Set preliminary keymap...
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Copy rules generated while the root was ro.
+Mar  3 08:46:04 rhf2s008 ifplugd(lo)[202]: ifplugd 0.28 initializing.
+Mar  3 08:46:04 rhf2s008 ifplugd(lo)[202]: Using interface lo/00:00:00:00:00:00
+Mar  3 08:46:04 rhf2s008 ifplugd(lo)[202]: Using detection mode: SIOCETHTOOL
+Mar  3 08:46:04 rhf2s008 ifplugd(lo)[202]: Initialization complete, link beat detected.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Mar  3 08:46:04 rhf2s008 ifplugd(lo)[202]: Executing '/etc/ifplugd/ifplugd.action lo up'.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] Initializing cgroup subsys cpu
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] Linux version 4.4.50-v7+ (dc4@dc4-XPS13-9333) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ) #970 SMP Mon Feb 20 19:18:29 GMT 2017
+Mar  3 08:46:04 rhf2s008 ifplugd(lo)[202]: client: /sbin/ifup: failed to open lockfile /run/network/.ifstate.lock: No such file or directory
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] Machine model: Raspberry Pi Compute Module 3 Rev 1.0
+Mar  3 08:46:04 rhf2s008 keyboard-setup[145]: Setting preliminary keymap...done.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] cma: Reserved 8 MiB at 0x3a800000
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] Memory policy: Data cache writealloc
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] On node 0 totalpages: 241664
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] free_area_init_node: node 0, pgdat 808c5040, node_mem_map b9fa6000
+Mar  3 08:46:04 rhf2s008 ifplugd(lo)[202]: client: run-parts: /etc/ifplugd/action.d//ifupdown exited with return code 1
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000]   Normal zone: 2124 pages used for memmap
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000]   Normal zone: 241664 pages, LIFO batch:31
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started LSB: Set preliminary keymap.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] [bcm2709_smp_init_cpus] enter (9520->f3003010)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] [bcm2709_smp_init_cpus] ncores=4
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] PERCPU: Embedded 13 pages/cpu @b9f62000 s22592 r8192 d22464 u53248
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Show Plymouth Boot Screen...
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] pcpu-alloc: s22592 r8192 d22464 u53248 alloc=13*4096
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 239540
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Remount Root and Kernel File Systems...
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] Kernel command line: 8250.nr_uarts=1 bcm2708_fb.fbwidth=656 bcm2708_fb.fbheight=416 bcm2708_fb.fbswap=1 dma.dmachans=0x7f35 bcm2709.boardrev=0xa220a0 bcm2709.serial=0x1701528f bcm2709.uart_clock=48000000 smsc95xx.macaddr=B8:27:EB:01:52:8F vc_mem.mem_base=0x3dc00000 vc_mem.mem_size=0x3f000000  dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Remount Root and Kernel File Systems.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] Memory: 939064K/966656K available (6357K kernel code, 432K rwdata, 1716K rodata, 476K init, 764K bss, 19400K reserved, 8192K cma-reserved)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] Virtual kernel memory layout:
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Various fixups to make systemd work better on Debian.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000]     vmalloc : 0xbb800000 - 0xff800000   (1088 MB)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000]     lowmem  : 0x80000000 - 0xbb000000   ( 944 MB)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000]     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Local File Systems (Pre).
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000]       .text : 0x80008000 - 0x807ea73c   (8074 kB)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000]       .init : 0x807eb000 - 0x80862000   ( 476 kB)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000]       .data : 0x80862000 - 0x808ce350   ( 433 kB)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000]        .bss : 0x808d1000 - 0x809901ec   ( 765 kB)
+Mar  3 08:46:04 rhf2s008 systemd[1]: Reached target Local File Systems (Pre).
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] Hierarchical RCU implementation.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Mounting /var/tmp...
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 32.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] NR_IRQS:16 nr_irqs:16 16
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] Architected cp15 timer(s) running at 19.20MHz (phys).
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+Mar  3 08:46:04 rhf2s008 systemd[1]: Mounting /var/spool/mqueue...
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000010] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000027] Switching to timer-based delay loop, resolution 52ns
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000287] Console: colour dummy device 80x30
+Mar  3 08:46:04 rhf2s008 systemd[1]: Mounting /var/log...
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000487] console [tty1] enabled
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000517] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000536] pid_max: default: 32768 minimum: 301
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000851] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Mar  3 08:46:04 rhf2s008 systemd[1]: var-log.mount: Directory /var/log to mount over is not empty, mounting anyway.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.000865] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.001795] Disabling cpuset control group subsystem
+Mar  3 08:46:04 rhf2s008 kernel: [    0.001828] Initializing cgroup subsys io
+Mar  3 08:46:04 rhf2s008 kernel: [    0.001858] Initializing cgroup subsys memory
+Mar  3 08:46:04 rhf2s008 systemd[1]: Mounting /tmp...
+Mar  3 08:46:04 rhf2s008 kernel: [    0.001903] Initializing cgroup subsys devices
+Mar  3 08:46:04 rhf2s008 kernel: [    0.001923] Initializing cgroup subsys freezer
+Mar  3 08:46:04 rhf2s008 kernel: [    0.001943] Initializing cgroup subsys net_cls
+Mar  3 08:46:04 rhf2s008 systemd[1]: tmp.mount: Directory /tmp to mount over is not empty, mounting anyway.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.001994] CPU: Testing write buffer coherency: ok
+Mar  3 08:46:04 rhf2s008 kernel: [    0.002055] ftrace: allocating 21246 entries in 63 pages
+Mar  3 08:46:04 rhf2s008 kernel: [    0.050022] CPU0: update cpu_capacity 1024
+Mar  3 08:46:04 rhf2s008 kernel: [    0.050053] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Load/Save Random Seed...
+Mar  3 08:46:04 rhf2s008 kernel: [    0.050064] [bcm2709_smp_prepare_cpus] enter
+Mar  3 08:46:04 rhf2s008 kernel: [    0.050205] Setting up static identity map for 0x8240 - 0x8274
+Mar  3 08:46:04 rhf2s008 kernel: [    0.051830] [bcm2709_boot_secondary] cpu:1 started (0) 17
+Mar  3 08:46:04 rhf2s008 ifplugd(lo)[202]: Program execution failed, return value is 1.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.052018] [bcm2709_secondary_init] enter cpu:1
+Mar  3 08:46:04 rhf2s008 kernel: [    0.052063] CPU1: update cpu_capacity 1024
+Mar  3 08:46:04 rhf2s008 kernel: [    0.052069] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+Mar  3 08:46:04 rhf2s008 systemd[1]: Mounted /tmp.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.052443] [bcm2709_boot_secondary] cpu:2 started (0) 16
+Mar  3 08:46:04 rhf2s008 kernel: [    0.052607] [bcm2709_secondary_init] enter cpu:2
+Mar  3 08:46:04 rhf2s008 kernel: [    0.052628] CPU2: update cpu_capacity 1024
+Mar  3 08:46:04 rhf2s008 kernel: [    0.052634] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+Mar  3 08:46:04 rhf2s008 systemd[1]: Mounted /var/log.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.052993] [bcm2709_boot_secondary] cpu:3 started (0) 17
+Mar  3 08:46:04 rhf2s008 kernel: [    0.053123] [bcm2709_secondary_init] enter cpu:3
+Mar  3 08:46:04 rhf2s008 kernel: [    0.053144] CPU3: update cpu_capacity 1024
+Mar  3 08:46:04 rhf2s008 systemd[1]: Mounted /var/spool/mqueue.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.053150] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+Mar  3 08:46:04 rhf2s008 kernel: [    0.053209] Brought up 4 CPUs
+Mar  3 08:46:04 rhf2s008 kernel: [    0.053232] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+Mar  3 08:46:04 rhf2s008 kernel: [    0.053240] CPU: All CPU(s) started in HYP mode.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.053247] CPU: Virtualization extensions available.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Mounted /var/tmp.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.053856] devtmpfs: initialized
+Mar  3 08:46:04 rhf2s008 kernel: [    0.064562] VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Load/Save Random Seed.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.064889] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Mar  3 08:46:04 rhf2s008 kernel: [    0.065572] pinctrl core: initialized pinctrl subsystem
+Mar  3 08:46:04 rhf2s008 kernel: [    0.066104] NET: Registered protocol family 16
+Mar  3 08:46:04 rhf2s008 systemd[1]: Received SIGRTMIN+20 from PID 216 (plymouthd).
+Mar  3 08:46:04 rhf2s008 kernel: [    0.071268] DMA: preallocated 4096 KiB pool for atomic coherent allocations
+Mar  3 08:46:04 rhf2s008 kernel: [    0.078261] bcm2709: Mini UART enabled
+Mar  3 08:46:04 rhf2s008 kernel: [    0.078302] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.078312] hw-breakpoint: maximum watchpoint size is 8 bytes.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Show Plymouth Boot Screen.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.078462] Serial: AMBA PL011 UART driver
+Mar  3 08:46:04 rhf2s008 kernel: [    0.078693] 3f201000.uart: ttyAMA0 at MMIO 0x3f201000 (irq = 87, base_baud = 0) is a PL011 rev2
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.079049] console [ttyAMA0] enabled
+Mar  3 08:46:04 rhf2s008 kernel: [    0.079533] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+Mar  3 08:46:04 rhf2s008 kernel: [    0.142166] bcm2835-dma 3f007000.dma: DMA legacy API manager at f3007000, dmachans=0x1
+Mar  3 08:46:04 rhf2s008 kernel: [    0.142744] SCSI subsystem initialized
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Paths.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.142935] usbcore: registered new interface driver usbfs
+Mar  3 08:46:04 rhf2s008 kernel: [    0.143025] usbcore: registered new interface driver hub
+Mar  3 08:46:04 rhf2s008 kernel: [    0.143123] usbcore: registered new device driver usb
+Mar  3 08:46:04 rhf2s008 systemd[1]: Reached target Paths.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.149571] raspberrypi-firmware soc:firmware: Attached to firmware from 2017-03-03 13:42
+Mar  3 08:46:04 rhf2s008 kernel: [    0.176701] clocksource: Switched to clocksource arch_sys_counter
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Forward Password Requests to Plymouth Directory Watch.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.221422] FS-Cache: Loaded
+Mar  3 08:46:04 rhf2s008 kernel: [    0.221696] CacheFiles: Loaded
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.234013] NET: Registered protocol family 2
+Mar  3 08:46:04 rhf2s008 kernel: [    0.234868] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.234983] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.235172] TCP: Hash tables configured (established 8192 bind 8192)
+Mar  3 08:46:04 rhf2s008 ifplugd(eth0)[240]: ifplugd 0.28 initializing.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.235270] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.235317] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.235547] NET: Registered protocol family 1
+Mar  3 08:46:04 rhf2s008 kernel: [    0.235873] RPC: Registered named UNIX socket transport module.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.235883] RPC: Registered udp transport module.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.235891] RPC: Registered tcp transport module.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.235900] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Mar  3 08:46:04 rhf2s008 ifplugd(eth0)[240]: Using interface eth0/B8:27:EB:01:52:8F with driver <smsc95xx> (version: 22-Aug-2005)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.236992] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+Mar  3 08:46:04 rhf2s008 kernel: [    0.238320] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.251511] VFS: Disk quotas dquot_6.6.0
+Mar  3 08:46:04 rhf2s008 ifplugd(eth0)[240]: Using detection mode: SIOCETHTOOL
+Mar  3 08:46:04 rhf2s008 ifplugd(eth0)[240]: Initialization complete, link beat not detected.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Hardware watchdog 'Broadcom BCM2835 Watchdog timer', version 0
+Mar  3 08:46:04 rhf2s008 systemd[1]: Failed to set timeout to 30s: Invalid argument
+Mar  3 08:46:04 rhf2s008 systemd[1]: Found device /dev/ttyAMA0.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Sound Card.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Reached target Sound Card.
+Mar  3 08:46:04 rhf2s008 ifplugd(usb0)[289]: ifplugd 0.28 initializing.
+Mar  3 08:46:04 rhf2s008 ifplugd(usb0)[289]: Using interface usb0/02:1E:10:1F:00:00 with driver <cdc_ether> (version: 22-Aug-2005)
+Mar  3 08:46:04 rhf2s008 ifplugd(usb0)[289]: Using detection mode: SIOCETHTOOL
+Mar  3 08:46:04 rhf2s008 ifplugd(usb0)[289]: Initialization complete, link beat detected.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Found device /dev/mmcblk0p1.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting File System Check on /dev/mmcblk0p1...
+Mar  3 08:46:04 rhf2s008 ifplugd(usb0)[289]: Executing '/etc/ifplugd/ifplugd.action usb0 up'.
+Mar  3 08:46:04 rhf2s008 ifplugd(usb0)[289]: client: /sbin/ifup: failed to open lockfile /run/network/.ifstate.lock: No such file or directory
+Mar  3 08:46:04 rhf2s008 ifplugd(usb0)[289]: client: run-parts: /etc/ifplugd/action.d//ifupdown exited with return code 1
+Mar  3 08:46:04 rhf2s008 systemd-fsck[290]: fsck.fat 3.0.27 (2014-11-12)
+Mar  3 08:46:04 rhf2s008 systemd-fsck[290]: /dev/mmcblk0p1: 125 files, 41510/127006 clusters
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started File System Check on /dev/mmcblk0p1.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Mounting /boot...
+Mar  3 08:46:04 rhf2s008 ifplugd(usb0)[289]: Program execution failed, return value is 1.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Mounted /boot.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Local File Systems.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Reached target Local File Systems.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.251824] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.254053] FS-Cache: Netfs 'nfs' registered for caching
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Mar  3 08:46:04 rhf2s008 kernel: [    0.254953] NFS: Registering the id_resolver key type
+Mar  3 08:46:04 rhf2s008 kernel: [    0.255009] Key type id_resolver registered
+Mar  3 08:46:04 rhf2s008 kernel: [    0.255018] Key type id_legacy registered
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Create Volatile Files and Directories...
+Mar  3 08:46:04 rhf2s008 kernel: [    0.257352] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.257473] io scheduler noop registered
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Remote File Systems.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.257490] io scheduler deadline registered (default)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.257541] io scheduler cfq registered
+Mar  3 08:46:04 rhf2s008 kernel: [    0.260062] BCM2708FB: allocated DMA memory fac10000
+Mar  3 08:46:04 rhf2s008 kernel: [    0.260088] BCM2708FB: allocated DMA channel 0 @ f3007000
+Mar  3 08:46:04 rhf2s008 systemd[1]: Reached target Remote File Systems.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.268813] Console: switching to colour frame buffer device 82x26
+Mar  3 08:46:04 rhf2s008 kernel: [    0.273641] Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+Mar  3 08:46:04 rhf2s008 kernel: [    0.275290] 3f215040.uart: ttyS0 at MMIO 0x3f215040 (irq = 59, base_baud = 31250000) is a 16550
+Mar  3 08:46:04 rhf2s008 kernel: [    0.276451] bcm2835-rng 3f104000.rng: hwrng registered
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Trigger Flushing of Journal to Persistent Storage...
+Mar  3 08:46:04 rhf2s008 kernel: [    0.276549] vc-cma: Videocore CMA driver
+Mar  3 08:46:04 rhf2s008 kernel: [    0.276559] vc-cma: vc_cma_base      = 0x00000000
+Mar  3 08:46:04 rhf2s008 kernel: [    0.276568] vc-cma: vc_cma_size      = 0x00000000 (0 MiB)
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting LSB: Prepare console...
+Mar  3 08:46:04 rhf2s008 kernel: [    0.276576] vc-cma: vc_cma_initial   = 0x00000000 (0 MiB)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.276829] vc-mem: phys_addr:0x00000000 mem_base=0x3dc00000 mem_size:0x3f000000(1008 MiB)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.291626] brd: module loaded
+Mar  3 08:46:04 rhf2s008 kernel: [    0.300166] loop: module loaded
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Mar  3 08:46:04 rhf2s008 kernel: [    0.301050] vchiq: vchiq_init_state: slot_zero = 0xbac80000, is_master = 0
+Mar  3 08:46:04 rhf2s008 kernel: [    0.302453] Loading iSCSI transport class v2.0-870.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.303098] usbcore: registered new interface driver smsc95xx
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting LSB: Raise network interfaces....
+Mar  3 08:46:04 rhf2s008 kernel: [    0.303150] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.503447] Core Release: 2.80a
+Mar  3 08:46:04 rhf2s008 kernel: [    0.503460] Setting default values for core params
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.503494] Finished setting default values for core params
+Mar  3 08:46:04 rhf2s008 kernel: [    0.703864] Using Buffer DMA mode
+Mar  3 08:46:04 rhf2s008 kernel: [    0.703875] Periodic Transfer Interrupt Enhancement - disabled
+Mar  3 08:46:04 rhf2s008 kernel: [    0.703883] Multiprocessor Interrupt Enhancement - disabled
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Create Volatile Files and Directories.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.703893] OTG VER PARAM: 0, OTG VER FLAG: 0
+Mar  3 08:46:04 rhf2s008 kernel: [    0.703912] Dedicated Tx FIFOs mode
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704217] WARN::dwc_otg_hcd_init:1047: FIQ DMA bounce buffers: virt = 0xbac04000 dma = 0xfac04000 len=9024
+Mar  3 08:46:04 rhf2s008 raspi-config[313]: Checking if shift key is held down:Error opening '/dev/input/event*': No such file or directory
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704247] FIQ FSM acceleration enabled for :
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704247] Non-periodic Split Transactions
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704247] Periodic Split Transactions
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704247] High-Speed Isochronous Endpoints
+Mar  3 08:46:04 rhf2s008 raspi-config[313]: No. Switching to ondemand scaling governor.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704247] Interrupt/Control Split Transaction hack enabled
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704270] dwc_otg: Microframe scheduler enabled
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704316] WARN::hcd_init_fiq:415: FIQ on core 1 at 0x80448d28
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704331] WARN::hcd_init_fiq:416: FIQ ASM at 0x80449098 length 36
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704346] WARN::hcd_init_fiq:441: MPHI regs_base at 0xbb87e000
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704410] dwc_otg 3f980000.usb: DWC OTG Controller
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704446] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704481] dwc_otg 3f980000.usb: irq 62, io mem 0x00000000
+Mar  3 08:46:04 rhf2s008 kbd[312]: Setting console screen modes.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704531] Init: Port Power? op_state=1
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704539] Init: Power Port (0)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704736] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Trigger Flushing of Journal to Persistent Storage.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704750] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704763] usb usb1: Product: DWC OTG Controller
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704775] usb usb1: Manufacturer: Linux 4.4.50-v7+ dwc_otg_hcd
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar  3 08:46:04 rhf2s008 kernel: [    0.704787] usb usb1: SerialNumber: 3f980000.usb
+Mar  3 08:46:04 rhf2s008 kernel: [    0.705615] hub 1-0:1.0: USB hub found
+Mar  3 08:46:04 rhf2s008 kernel: [    0.705659] hub 1-0:1.0: 1 port detected
+Mar  3 08:46:04 rhf2s008 kernel: [    0.706306] dwc_otg: FIQ enabled
+Mar  3 08:46:04 rhf2s008 kbd[312]: setterm: $TERM is not defined.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.706316] dwc_otg: NAK holdoff enabled
+Mar  3 08:46:04 rhf2s008 kernel: [    0.706324] dwc_otg: FIQ split-transaction FSM enabled
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started LSB: Prepare console.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.706357] Module dwc_common_port init
+Mar  3 08:46:04 rhf2s008 kernel: [    0.706607] usbcore: registered new interface driver usb-storage
+Mar  3 08:46:04 rhf2s008 kernel: [    0.706882] mousedev: PS/2 mouse device common for all mice
+Mar  3 08:46:04 rhf2s008 kernel: [    0.707624] bcm2835-cpufreq: min=600000 max=1200000
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting LSB: Set console font and keymap...
+Mar  3 08:46:04 rhf2s008 kernel: [    0.707888] sdhci: Secure Digital Host Controller Interface driver
+Mar  3 08:46:04 rhf2s008 kernel: [    0.707898] sdhci: Copyright(c) Pierre Ossman
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.710077] sdhost: log_buf @ bac07000 (fac07000)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.766732] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Mar  3 08:46:04 rhf2s008 kernel: [    0.766949] sdhci-pltfm: SDHCI platform and OF driver helper
+Mar  3 08:46:04 rhf2s008 kernel: [    0.767319] ledtrig-cpu: registered to indicate activity on CPUs
+Mar  3 08:46:04 rhf2s008 kernel: [    0.767426] hidraw: raw HID events driver (C) Jiri Kosina
+Mar  3 08:46:04 rhf2s008 kernel: [    0.767591] usbcore: registered new interface driver usbhid
+Mar  3 08:46:04 rhf2s008 console-setup[361]: Setting up console font and keymap...done.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.767599] usbhid: USB HID core driver
+Mar  3 08:46:04 rhf2s008 kernel: [    0.768162] Initializing XFRM netlink socket
+Mar  3 08:46:04 rhf2s008 kernel: [    0.768196] NET: Registered protocol family 17
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started LSB: Set console font and keymap.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.768326] Key type dns_resolver registered
+Mar  3 08:46:04 rhf2s008 kernel: [    0.768836] Registering SWP/SWPB emulation handler
+Mar  3 08:46:04 rhf2s008 kernel: [    0.769624] registered taskstats version 1
+Mar  3 08:46:04 rhf2s008 networking[315]: Configuring network interfaces...done.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.769823] vc-sm: Videocore shared memory driver
+Mar  3 08:46:04 rhf2s008 kernel: [    0.769838] [vc_sm_connected_init]: start
+Mar  3 08:46:04 rhf2s008 kernel: [    0.787404] [vc_sm_connected_init]: end - returning 0
+Mar  3 08:46:04 rhf2s008 kernel: [    0.787708] of_cfs_init
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started LSB: Raise network interfaces..
+Mar  3 08:46:04 rhf2s008 kernel: [    0.787806] of_cfs_init: OK
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting System Initialization.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.788635] Waiting for root device /dev/mmcblk0p2...
+Mar  3 08:46:04 rhf2s008 kernel: [    0.829485] mmc0: MAN_BKOPS_EN bit is not set
+Mar  3 08:46:04 rhf2s008 kernel: [    0.831250] mmc0: new high speed MMC card at address 0001
+Mar  3 08:46:04 rhf2s008 kernel: [    0.831875] mmcblk0: mmc0:0001 4FPD3R 3.64 GiB
+Mar  3 08:46:04 rhf2s008 systemd[1]: Reached target System Initialization.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.832135] mmcblk0boot0: mmc0:0001 4FPD3R partition 1 4.00 MiB
+Mar  3 08:46:04 rhf2s008 kernel: [    0.832389] mmcblk0boot1: mmc0:0001 4FPD3R partition 2 4.00 MiB
+Mar  3 08:46:04 rhf2s008 kernel: [    0.832637] mmcblk0rpmb: mmc0:0001 4FPD3R partition 3 512 KiB
+Mar  3 08:46:04 rhf2s008 kernel: [    0.833903]  mmcblk0: p1 p2
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Avahi mDNS/DNS-SD Stack Activation Socket.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.896810] Indeed it is in host mode hprt0 = 00021501
+Mar  3 08:46:04 rhf2s008 kernel: [    0.966877] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Mar  3 08:46:04 rhf2s008 systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.966923] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Mar  3 08:46:04 rhf2s008 kernel: [    0.974004] devtmpfs: mounted
+Mar  3 08:46:04 rhf2s008 kernel: [    0.974746] Freeing unused kernel memory: 476K (807eb000 - 80862000)
+Mar  3 08:46:04 rhf2s008 kernel: [    1.076739] usb 1-1: new high-speed USB device number 2 using dwc_otg
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting D-Bus System Message Bus Socket.
+Mar  3 08:46:04 rhf2s008 kernel: [    1.076883] Indeed it is in host mode hprt0 = 00001101
+Mar  3 08:46:04 rhf2s008 kernel: [    1.223364] random: systemd: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+Mar  3 08:46:04 rhf2s008 kernel: [    1.277032] usb 1-1: New USB device found, idVendor=0424, idProduct=9512
+Mar  3 08:46:04 rhf2s008 systemd[1]: Listening on D-Bus System Message Bus Socket.
+Mar  3 08:46:04 rhf2s008 kernel: [    1.277052] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Mar  3 08:46:04 rhf2s008 kernel: [    1.277850] hub 1-1:1.0: USB hub found
+Mar  3 08:46:04 rhf2s008 kernel: [    1.277946] hub 1-1:1.0: 3 ports detected
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Sockets.
+Mar  3 08:46:04 rhf2s008 kernel: [    1.316013] NET: Registered protocol family 10
+Mar  3 08:46:04 rhf2s008 kernel: [    1.380645] uart-pl011 3f201000.uart: no DMA platform data
+Mar  3 08:46:04 rhf2s008 kernel: [    1.421871] random: systemd-sysv-ge: uninitialized urandom read (16 bytes read, 55 bits of entropy available)
+Mar  3 08:46:04 rhf2s008 systemd[1]: Reached target Sockets.
+Mar  3 08:46:04 rhf2s008 kernel: [    1.496883] random: systemd: uninitialized urandom read (16 bytes read, 63 bits of entropy available)
+Mar  3 08:46:04 rhf2s008 kernel: [    1.498155] random: systemd: uninitialized urandom read (16 bytes read, 63 bits of entropy available)
+Mar  3 08:46:04 rhf2s008 kernel: [    1.499570] random: systemd: uninitialized urandom read (16 bytes read, 63 bits of entropy available)
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Daily Cleanup of Temporary Directories.
+Mar  3 08:46:04 rhf2s008 kernel: [    1.513059] random: systemd: uninitialized urandom read (16 bytes read, 64 bits of entropy available)
+Mar  3 08:46:04 rhf2s008 kernel: [    1.513614] random: systemd: uninitialized urandom read (16 bytes read, 64 bits of entropy available)
+Mar  3 08:46:04 rhf2s008 kernel: [    1.513769] random: systemd: uninitialized urandom read (16 bytes read, 64 bits of entropy available)
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar  3 08:46:04 rhf2s008 kernel: [    1.532529] random: systemd: uninitialized urandom read (16 bytes read, 64 bits of entropy available)
+Mar  3 08:46:04 rhf2s008 kernel: [    1.539597] random: systemd: uninitialized urandom read (16 bytes read, 64 bits of entropy available)
+Mar  3 08:46:04 rhf2s008 kernel: [    1.556753] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Timers.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Reached target Timers.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Manage Sound Card State (restore and store).
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Restore Sound Card State...
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Basic System.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Reached target Basic System.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting dhcpcd on all interfaces...
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Turn on SSH if /boot/ssh is present.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Configure Bluetooth Modems connected by UART.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting System Logging Service...
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Restore /etc/resolv.conf if the system crashed before the ppp link was shut down....
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Regular background program processing daemon...
+Mar  3 08:46:04 rhf2s008 dhcpcd[462]: version 6.7.1 starting
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Regular background program processing daemon.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting D-Bus System Message Bus...
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started D-Bus System Message Bus.
+Mar  3 08:46:04 rhf2s008 cron[467]: (CRON) INFO (pidfile fd = 3)
+Mar  3 08:46:04 rhf2s008 dhcpcd[462]: dev: loaded udev
+Mar  3 08:46:04 rhf2s008 ifplugd(usb0)[289]: Link beat lost.
+Mar  3 08:46:04 rhf2s008 cron[467]: (CRON) INFO (Running @reboot jobs)
+Mar  3 08:46:04 rhf2s008 dhcpcd[462]: eth0: adding address fe80::4785:e7c0:6d24:557c
+Mar  3 08:46:04 rhf2s008 kernel: [    1.657094] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00
+Mar  3 08:46:04 rhf2s008 kernel: [    1.657113] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Mar  3 08:46:04 rhf2s008 kernel: [    1.659909] smsc95xx v1.0.4
+Mar  3 08:46:04 rhf2s008 avahi-daemon[464]: Found user 'avahi' (UID 105) and group 'avahi' (GID 110).
+Mar  3 08:46:04 rhf2s008 kernel: [    1.721325] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:01:52:8f
+Mar  3 08:46:04 rhf2s008 kernel: [    1.796777] usb 1-1.2: new high-speed USB device number 4 using dwc_otg
+Mar  3 08:46:04 rhf2s008 avahi-daemon[464]: Successfully dropped root privileges.
+Mar  3 08:46:04 rhf2s008 kernel: [    1.898351] usb 1-1.2: New USB device found, idVendor=12d1, idProduct=15c1
+Mar  3 08:46:04 rhf2s008 kernel: [    1.898374] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Mar  3 08:46:04 rhf2s008 avahi-daemon[464]: avahi-daemon 0.6.31 starting up.
+Mar  3 08:46:04 rhf2s008 kernel: [    1.898386] usb 1-1.2: Product: HUAWEI Mobile V7R11
+Mar  3 08:46:04 rhf2s008 kernel: [    1.898399] usb 1-1.2: Manufacturer: Huawei Technologies Co., Ltd.
+Mar  3 08:46:04 rhf2s008 kernel: [    1.898411] usb 1-1.2: SerialNumber: 0123456789ABCDEF
+Mar  3 08:46:04 rhf2s008 kernel: [    2.750505] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+Mar  3 08:46:04 rhf2s008 kernel: [    3.578857] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+Mar  3 08:46:04 rhf2s008 kernel: [    3.579029] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Mar  3 08:46:04 rhf2s008 kernel: [    3.714453] bcm2835-wdt 3f100000.watchdog: Broadcom BCM2835 watchdog timer
+Mar  3 08:46:04 rhf2s008 kernel: [    3.715567] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+Mar  3 08:46:04 rhf2s008 kernel: [    3.766756] usbcore: registered new interface driver usbserial
+Mar  3 08:46:04 rhf2s008 kernel: [    3.766870] usbcore: registered new interface driver usbserial_generic
+Mar  3 08:46:04 rhf2s008 kernel: [    3.766956] usbserial: USB Serial support registered for generic
+Mar  3 08:46:04 rhf2s008 kernel: [    3.788556] cdc_ether 1-1.2:2.0 usb0: register 'cdc_ether' at usb-3f980000.usb-1.2, CDC Ethernet Device, 02:1e:10:1f:00:00
+Mar  3 08:46:04 rhf2s008 kernel: [    3.788775] usbcore: registered new interface driver cdc_ether
+Mar  3 08:46:04 rhf2s008 kernel: [    3.797611] usbcore: registered new interface driver option
+Mar  3 08:46:04 rhf2s008 kernel: [    3.797728] usbserial: USB Serial support registered for GSM modem (1-port)
+Mar  3 08:46:04 rhf2s008 kernel: [    3.798525] option 1-1.2:2.2: GSM modem (1-port) converter detected
+Mar  3 08:46:04 rhf2s008 kernel: [    3.799080] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB0
+Mar  3 08:46:04 rhf2s008 kernel: [    3.799422] option 1-1.2:2.3: GSM modem (1-port) converter detected
+Mar  3 08:46:04 rhf2s008 kernel: [    3.800375] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB1
+Mar  3 08:46:04 rhf2s008 kernel: [    3.800739] option 1-1.2:2.4: GSM modem (1-port) converter detected
+Mar  3 08:46:04 rhf2s008 kernel: [    3.801845] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB2
+Mar  3 08:46:04 rhf2s008 kernel: [    3.802639] option 1-1.2:2.5: GSM modem (1-port) converter detected
+Mar  3 08:46:04 rhf2s008 kernel: [    3.803527] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB3
+Mar  3 08:46:04 rhf2s008 kernel: [    3.804368] option 1-1.2:2.6: GSM modem (1-port) converter detected
+Mar  3 08:46:04 rhf2s008 kernel: [    3.805545] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB4
+Mar  3 08:46:04 rhf2s008 kernel: [    3.893929] cdc_ether 1-1.2:2.0 usb0: kevent 12 may have been dropped
+Mar  3 08:46:04 rhf2s008 kernel: [    5.189545] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Mar  3 08:46:04 rhf2s008 kernel: [    5.190231] smsc95xx 1-1.1:1.0 eth0: link up, 100Mbps, full-duplex, lpa 0xCDE1
+Mar  3 08:46:04 rhf2s008 kernel: [    5.369169] cfg80211: World regulatory domain updated:
+Mar  3 08:46:04 rhf2s008 kernel: [    5.369189] cfg80211:  DFS Master region: unset
+Mar  3 08:46:04 rhf2s008 kernel: [    5.369196] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+Mar  3 08:46:04 rhf2s008 kernel: [    5.369210] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+Mar  3 08:46:04 rhf2s008 kernel: [    5.369224] cfg80211:   (2457000 KHz - 2482000 KHz @ 20000 KHz, 92000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+Mar  3 08:46:04 rhf2s008 kernel: [    5.369231] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+Mar  3 08:46:04 rhf2s008 kernel: [    5.369249] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+Mar  3 08:46:04 rhf2s008 kernel: [    5.369267] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+Mar  3 08:46:04 rhf2s008 kernel: [    5.369280] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2000 mBm), (0 s)
+Mar  3 08:46:04 rhf2s008 kernel: [    5.369296] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+Mar  3 08:46:04 rhf2s008 kernel: [    5.369303] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+Mar  3 08:46:04 rhf2s008 avahi-daemon[464]: Successfully called chroot().
+Mar  3 08:46:04 rhf2s008 avahi-daemon[464]: Successfully dropped remaining capabilities.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting Login Service...
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Starting LSB: triggerhappy hotkey daemon...
+Mar  3 08:46:04 rhf2s008 avahi-daemon[464]: No service file found in /etc/avahi/services.
+Mar  3 08:46:04 rhf2s008 avahi-daemon[464]: Joining mDNS multicast group on interface usb0.IPv6 with address fe80::1e:10ff:fe1f:0.
+Mar  3 08:46:04 rhf2s008 avahi-daemon[464]: New relevant interface usb0.IPv6 for mDNS.
+Mar  3 08:46:04 rhf2s008 avahi-daemon[464]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::ba27:ebff:fe01:528f.
+Mar  3 08:46:04 rhf2s008 avahi-daemon[464]: New relevant interface eth0.IPv6 for mDNS.
+Mar  3 08:46:04 rhf2s008 avahi-daemon[464]: Network interface enumeration completed.
+Mar  3 08:46:04 rhf2s008 avahi-daemon[464]: Registering new address record for fe80::1e:10ff:fe1f:0 on usb0.*.
+Mar  3 08:46:04 rhf2s008 avahi-daemon[464]: Registering new address record for fe80::ba27:ebff:fe01:528f on eth0.*.
+Mar  3 08:46:04 rhf2s008 avahi-daemon[464]: Registering new address record for fe80::4785:e7c0:6d24:557c on eth0.*.
+Mar  3 08:46:04 rhf2s008 avahi-daemon[464]: Registering HINFO record with values 'ARMV7L'/'LINUX'.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started System Logging Service.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Restore Sound Card State.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Restore /etc/resolv.conf if the system crashed before the ppp link was shut down..
+Mar  3 08:46:04 rhf2s008 triggerhappy[528]: Error opening '/dev/input/event*': No such file or directory
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started LSB: triggerhappy hotkey daemon.
+Mar  3 08:46:04 rhf2s008 systemd[1]: Started Login Service.
+Mar  3 08:46:04 rhf2s008 dhcpcd[462]: eth0: waiting for carrier
+Mar  3 08:46:04 rhf2s008 dhcpcd[462]: usb0: waiting for carrier
+Mar  3 08:46:04 rhf2s008 dhcpcd[462]: eth0: carrier acquired
+Mar  3 08:46:04 rhf2s008 dhcpcd[462]: DUID 00:01:00:01:20:4c:53:e1:02:1e:10:1f:00:00
+Mar  3 08:46:04 rhf2s008 dhcpcd[462]: eth0: IAID eb:01:52:8f
+Mar  3 08:46:04 rhf2s008 ifplugd(eth0)[240]: Link beat detected.
+Mar  3 08:46:04 rhf2s008 ifplugd(eth0)[240]: Executing '/etc/ifplugd/ifplugd.action eth0 up'.
+Mar  3 08:46:04 rhf2s008 ifplugd(eth0)[240]: client: unknown
+Mar  3 08:46:04 rhf2s008 ifplugd(eth0)[240]: client: disabled
+Mar  3 08:46:05 rhf2s008 dhcpcd[462]: eth0: rebinding lease of 192.168.1.246
+Mar  3 08:46:05 rhf2s008 ifplugd(eth0)[240]: Program executed successfully.
+Mar  3 08:46:05 rhf2s008 avahi-daemon[464]: Server startup complete. Host name is rhf2s008.local. Local service cookie is 1180342032.
+Mar  3 08:46:05 rhf2s008 dhcpcd[462]: eth0: soliciting an IPv6 router
+Mar  3 08:46:06 rhf2s008 kernel: [    7.285138] random: nonblocking pool is initialized
+Mar  3 08:46:09 rhf2s008 dhcpcd[462]: eth0: leased 192.168.1.246 for 86400 seconds
+Mar  3 08:46:09 rhf2s008 avahi-daemon[464]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.1.246.
+Mar  3 08:46:09 rhf2s008 avahi-daemon[464]: New relevant interface eth0.IPv4 for mDNS.
+Mar  3 08:46:09 rhf2s008 dhcpcd[462]: eth0: adding route to 192.168.1.0/24
+Mar  3 08:46:09 rhf2s008 avahi-daemon[464]: Registering new address record for 192.168.1.246 on eth0.IPv4.
+Mar  3 08:46:09 rhf2s008 dhcpcd[462]: eth0: adding default route via 192.168.1.1
+Mar  3 08:46:09 rhf2s008 dhcpcd[462]: forked to background, child pid 715
+Mar  3 08:46:09 rhf2s008 systemd[1]: Started dhcpcd on all interfaces.
+Mar  3 08:46:09 rhf2s008 systemd[1]: Starting Network.
+Mar  3 08:46:09 rhf2s008 systemd[1]: Reached target Network.
+Mar  3 08:46:09 rhf2s008 systemd[1]: Starting OpenBSD Secure Shell server...
+Mar  3 08:46:09 rhf2s008 systemd[1]: Started OpenBSD Secure Shell server.
+Mar  3 08:46:09 rhf2s008 systemd[1]: Starting /etc/rc.local Compatibility...
+Mar  3 08:46:09 rhf2s008 systemd[1]: Starting Permit User Sessions...
+Mar  3 08:46:09 rhf2s008 systemd[1]: Starting Network is Online.
+Mar  3 08:46:09 rhf2s008 systemd[1]: Reached target Network is Online.
+Mar  3 08:46:09 rhf2s008 systemd[1]: Starting packet forwarder...
+Mar  3 08:46:09 rhf2s008 systemd[1]: Started packet forwarder.
+Mar  3 08:46:09 rhf2s008 systemd[1]: Starting LSB: Start NTP daemon...
+Mar  3 08:46:09 rhf2s008 systemd[1]: Starting LSB: Brings up/down network automatically...
+Mar  3 08:46:09 rhf2s008 systemd[1]: Started Permit User Sessions.
+Mar  3 08:46:10 rhf2s008 ifplugd[724]: Network Interface Plugging Daemon...Process 240 died: No such process; trying to remove PID file. (/var/run/ifplugd.eth0.pid)
+Mar  3 08:46:10 rhf2s008 ifplugd(eth0)[767]: ifplugd 0.28 initializing.
+Mar  3 08:46:10 rhf2s008 ifplugd(eth0)[767]: Using interface eth0/B8:27:EB:01:52:8F with driver <smsc95xx> (version: 22-Aug-2005)
+Mar  3 08:46:10 rhf2s008 ifplugd(eth0)[767]: Using detection mode: SIOCETHTOOL
+Mar  3 08:46:10 rhf2s008 ifplugd(eth0)[767]: Initialization complete, link beat detected.
+Mar  3 08:46:10 rhf2s008 ntpd[759]: ntpd 4.2.6p5@1.2349-o Mon Jul 25 22:35:28 UTC 2016 (1)
+Mar  3 08:46:10 rhf2s008 ntpd[772]: proto: precision = 0.520 usec
+Mar  3 08:46:10 rhf2s008 systemd[1]: Started LSB: Start NTP daemon.
+Mar  3 08:46:10 rhf2s008 ntpd[772]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Mar  3 08:46:10 rhf2s008 ntp[723]: Starting NTP server: ntpd.
+Mar  3 08:46:10 rhf2s008 ntpd[772]: Listen and drop on 1 v6wildcard :: UDP 123
+Mar  3 08:46:10 rhf2s008 ntpd[772]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Mar  3 08:46:10 rhf2s008 ntpd[772]: Listen normally on 3 eth0 192.168.1.246 UDP 123
+Mar  3 08:46:10 rhf2s008 ntpd[772]: Listen normally on 4 eth0 fe80::ba27:ebff:fe01:528f UDP 123
+Mar  3 08:46:10 rhf2s008 ntpd[772]: Listen normally on 5 lo ::1 UDP 123
+Mar  3 08:46:10 rhf2s008 ntpd[772]: Listen normally on 6 usb0 fe80::1e:10ff:fe1f:0 UDP 123
+Mar  3 08:46:10 rhf2s008 ntpd[772]: Listen normally on 7 eth0 fe80::4785:e7c0:6d24:557c UDP 123
+Mar  3 08:46:10 rhf2s008 ntpd[772]: peers refreshed
+Mar  3 08:46:10 rhf2s008 ntpd[772]: Listening on routing socket on fd #24 for interface updates
+Mar  3 08:46:10 rhf2s008 ifplugd(eth0)[767]: Executing '/etc/ifplugd/ifplugd.action eth0 up'.
+Mar  3 08:46:10 rhf2s008 ifplugd(eth0)[767]: client: unknown
+Mar  3 08:46:10 rhf2s008 ifplugd(eth0)[767]: client: disabled
+Mar  3 08:46:10 rhf2s008 ifplugd(eth0)[767]: client: /sbin/ifup: interface eth0 already configured
+Mar  3 08:46:10 rhf2s008 pktfwd.sh[719]: Gateway reset successfully
+Mar  3 08:46:10 rhf2s008 pktfwd.sh[719]: Packet_forwarder V2 protocol seltected
+Mar  3 08:46:10 rhf2s008 ifplugd(eth0)[767]: Program executed successfully.
+Mar  3 08:46:10 rhf2s008 ifplugd[724]: start eth0...done.
+Mar  3 08:46:10 rhf2s008 systemd[1]: Started LSB: Brings up/down network automatically.
+Mar  3 08:46:10 rhf2s008 systemd[1]: Started /etc/rc.local Compatibility.
+Mar  3 08:46:10 rhf2s008 systemd[1]: Starting Hold until boot process finishes up...
+Mar  3 08:46:10 rhf2s008 systemd[1]: Starting Terminate Plymouth Boot Screen...
+Mar  3 08:46:10 rhf2s008 systemd[1]: Received SIGRTMIN+21 from PID 216 (plymouthd).
+Mar  3 08:46:10 rhf2s008 systemd[1]: Started Hold until boot process finishes up.
+Mar  3 08:46:10 rhf2s008 systemd[1]: Started Terminate Plymouth Boot Screen.
+Mar  3 08:46:10 rhf2s008 systemd[1]: Starting Getty on tty1...
+Mar  3 08:46:10 rhf2s008 systemd[1]: Started Getty on tty1.
+Mar  3 08:46:10 rhf2s008 systemd[1]: Starting Serial Getty on ttyAMA0...
+Mar  3 08:46:10 rhf2s008 systemd[1]: Started Serial Getty on ttyAMA0.
+Mar  3 08:46:10 rhf2s008 systemd[1]: Starting Login Prompts.
+Mar  3 08:46:10 rhf2s008 systemd[1]: Reached target Login Prompts.
+Mar  3 08:46:10 rhf2s008 systemd[1]: Starting Multi-User System.
+Mar  3 08:46:10 rhf2s008 systemd[1]: Reached target Multi-User System.
+Mar  3 08:46:10 rhf2s008 systemd[1]: Starting Graphical Interface.
+Mar  3 08:46:10 rhf2s008 systemd[1]: Reached target Graphical Interface.
+Mar  3 08:46:10 rhf2s008 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar  3 08:46:10 rhf2s008 systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar  3 08:46:10 rhf2s008 systemd[1]: Startup finished in 1.157s (kernel) + 10.120s (userspace) = 11.277s.
+Mar  3 08:46:35 rhf2s008 systemd[1]: Time has been changed
+Mar  3 08:46:36 rhf2s008 dhcpcd[715]: eth0: no IPv6 Routers available
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: *** Beacon Packet Forwarder for Lora Gateway ***
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: Version: 4.0.1
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: *** Lora concentrator HAL library version info ***
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: Version: RHF_5.0.1;
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: ***
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Little endian host
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: found global configuration file global_conf.json, parsing it
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: global_conf.json does contain a JSON object named SX1301_conf, parsing SX1301 parameters
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: lorawan_public 1, clksrc 1
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: LBT is disabled
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: antenna_gain 0 dBi
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Configuring TX LUT with 16 indexes
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: radio 0 enabled (type SX1257), center frequency 867500000, RSSI offset -166.000000, tx enabled 1, tx_notch_freq 129000
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: radio 1 enabled (type SX1257), center frequency 868500000, RSSI offset -166.000000, tx enabled 0, tx_notch_freq 0
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Lora multi-SF channel 0>  radio 1, IF -400000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Lora multi-SF channel 1>  radio 1, IF -200000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Lora multi-SF channel 2>  radio 1, IF 0 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Lora multi-SF channel 3>  radio 0, IF -400000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Lora multi-SF channel 4>  radio 0, IF -200000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Lora multi-SF channel 5>  radio 0, IF 0 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Lora multi-SF channel 6>  radio 0, IF 200000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Lora multi-SF channel 7>  radio 0, IF 400000 Hz, 125 kHz bw, SF 7 to 12
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Lora std channel> radio 1, IF -200000 Hz, 250000 Hz bw, SF 7
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: FSK channel> radio 1, IF 300000 Hz, 125000 Hz bw, 50000 bps datarate
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: gateway MAC address is configured to AA555A0000000000
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: server hostname or IP address is configured to "localhost"
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: upstream port is configured to "1680"
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: downstream port is configured to "1680"
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: downstream keep-alive interval is configured to 10 seconds
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: statistics display interval is configured to 30 seconds
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: upstream PUSH_DATA time-out is configured to 100 ms
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: packets received with a valid CRC will be forwarded
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: packets received with a CRC error will NOT be forwarded
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: packets received with no CRC will NOT be forwarded
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: found local configuration file local_conf.json, parsing it
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: redefined parameters will overwrite global parameters
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: local_conf.json does not contain a JSON object named SX1301_conf
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: gateway MAC address is configured to B827EBFFFE01528F
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: server hostname or IP address is configured to "192.168.1.102"
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: upstream port is configured to "8001"
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: downstream port is configured to "8001"
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: packets received with a valid CRC will be forwarded
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: packets received with a CRC error will NOT be forwarded
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: packets received with no CRC will NOT be forwarded
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: open /dev/spidev0.0 interface
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: [main] concentrator started, packet can now be received
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Disabling GPS mode for concentrator's counter...
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: host/sx1301 time offset=(1614761171s:834681µs) - drift=-502573255µs
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Enabling GPS mode for concentrator's counter.
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_ACK received in 1 ms
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":10237611,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":11585099,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.8,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:46:43 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":12907851,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":14237643,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-88,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":15563931,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":11.0,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":16890907,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":18221755,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":19550147,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":8.8,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":20898643,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.0,"rssi":-87,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":22220659,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":23546419,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:46:59 rhf2s008 rsyslogd-2007: action 'action 17' suspended, next retry is Wed Mar  3 08:47:29 2021 [try http://www.rsyslog.com/e/2007 ]
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":24875451,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":26205443,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":27523803,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:46:59 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":28858019,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.0,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":30184523,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.8,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":31514819,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":32849859,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":34182323,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: ##### 2021-03-03 08:47:05 GMT #####
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: ### [UPSTREAM] ###
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: # RF packets received by concentrator: 19
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: # RF packets forwarded: 19 (1216 bytes)
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: # PUSH_DATA datagrams sent: 19 (4948 bytes)
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: # PUSH_DATA acknowledged: 100.00%
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: ### [DOWNSTREAM] ###
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: # PULL_DATA sent: 3 (100.00% acknowledged)
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: # RF packets sent to concentrator: 0 (0 bytes)
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: # TX errors: 0
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: # BEACON queued: 0
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: # BEACON sent so far: 0
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: # BEACON rejected: 0
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: ### [JIT] ###
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: # SX1301 time (PPS): 34441999
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: ### [GPS] ###
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: # GPS sync is disabled
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: ##### END #####
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: JSON up: {"stat":{"time":"2021-03-03 08:47:05 GMT","rxnb":19,"rxok":19,"rxfw":19,"ackr":100.0,"dwnb":0,"txnb":0}}
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":35500435,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-88,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":36822251,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.8,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":38155563,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":43481731,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":44806923,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:31 rhf2s008 rsyslogd-2007: action 'action 17' suspended, next retry is Wed Mar  3 08:48:01 2021 [try http://www.rsyslog.com/e/2007 ]
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":46121139,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":47450187,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-88,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":48784467,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.8,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":50106611,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-88,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":51434331,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":52765531,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":54119419,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.8,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":55437635,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-95,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_ACK received in 22 ms
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":56761139,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":58097147,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":6.2,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":59424243,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":7.8,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:31 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":60754147,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":6.2,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":62068723,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":63400555,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":64739339,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.0,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: ##### 2021-03-03 08:47:35 GMT #####
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: ### [UPSTREAM] ###
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: # RF packets received by concentrator: 21
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: # CRC_OK: 95.24%, CRC_FAIL: 4.76%, NO_CRC: 0.00%
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: # RF packets forwarded: 20 (1280 bytes)
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: # PUSH_DATA datagrams sent: 21 (5326 bytes)
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: # PUSH_DATA acknowledged: 100.00%
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: ### [DOWNSTREAM] ###
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: # PULL_DATA sent: 3 (100.00% acknowledged)
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: # RF packets sent to concentrator: 0 (0 bytes)
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: # TX errors: 0
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: # BEACON queued: 0
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: # BEACON sent so far: 0
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: # BEACON rejected: 0
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: ### [JIT] ###
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: # SX1301 time (PPS): 64441961
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: ### [GPS] ###
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: # GPS sync is disabled
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: ##### END #####
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: Disabling GPS mode for concentrator's counter...
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: host/sx1301 time offset=(1614761190s:557928µs) - drift=18723247µs
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: Enabling GPS mode for concentrator's counter.
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: JSON up: {"stat":{"time":"2021-03-03 08:47:35 GMT","rxnb":21,"rxok":20,"rxfw":20,"ackr":100.0,"dwnb":0,"txnb":0}}
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 52 ms
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":66076483,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":67406835,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":68739043,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":70069603,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":71395571,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":8.8,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:43 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":72725531,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.8,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":74057139,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":75381795,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":76712371,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":78036747,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":8.2,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":79365539,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":80696283,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.0,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":82022499,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":83342275,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":84680227,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":86012011,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 08:47:57 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":87332515,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:15 rhf2s008 rsyslogd-2007: action 'action 17' suspended, next retry is Wed Mar  3 08:48:45 2021 [try http://www.rsyslog.com/e/2007 ]
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":88656003,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-92,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":89996723,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-93,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":91320835,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":92645771,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-93,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: ##### 2021-03-03 08:48:05 GMT #####
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: ### [UPSTREAM] ###
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: # RF packets received by concentrator: 22
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: # CRC_OK: 95.45%, CRC_FAIL: 4.55%, NO_CRC: 0.00%
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: # RF packets forwarded: 21 (1344 bytes)
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: # PUSH_DATA datagrams sent: 22 (5584 bytes)
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: # PUSH_DATA acknowledged: 100.00%
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: ### [DOWNSTREAM] ###
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: # PULL_DATA sent: 3 (100.00% acknowledged)
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: # RF packets sent to concentrator: 0 (0 bytes)
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: # TX errors: 0
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: # BEACON queued: 0
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: # BEACON sent so far: 0
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: # BEACON rejected: 0
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: ### [JIT] ###
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: # SX1301 time (PPS): 94441923
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: ### [GPS] ###
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: # GPS sync is disabled
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: ##### END #####
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: JSON up: {"stat":{"time":"2021-03-03 08:48:05 GMT","rxnb":22,"rxok":21,"rxfw":21,"ackr":100.0,"dwnb":0,"txnb":0}}
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":97950123,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-94,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":99290563,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-102,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":100627075,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-95,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":101961787,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":103276715,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-93,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:15 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":104616931,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.0,"rssi":-93,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":105945507,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-92,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":107273619,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":8.8,"rssi":-102,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":108599163,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":8.5,"rssi":-106,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":109929147,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":0.0,"rssi":-101,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":111257331,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":8.0,"rssi":-103,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":112580875,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":113908083,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-88,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":115239707,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":8.2,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":116570459,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-85,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":117895043,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-85,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:29 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":119228067,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-85,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":120554651,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":11.0,"rssi":-87,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":121898387,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-85,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":123231499,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-87,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":124554787,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-88,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: ##### 2021-03-03 08:48:35 GMT #####
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: ### [UPSTREAM] ###
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: # RF packets received by concentrator: 22
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: # CRC_OK: 95.45%, CRC_FAIL: 4.55%, NO_CRC: 0.00%
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: # RF packets forwarded: 21 (1344 bytes)
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: # PUSH_DATA datagrams sent: 22 (5611 bytes)
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: # PUSH_DATA acknowledged: 100.00%
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: ### [DOWNSTREAM] ###
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: # PULL_DATA sent: 3 (100.00% acknowledged)
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: # RF packets sent to concentrator: 0 (0 bytes)
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: # TX errors: 0
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: # BEACON queued: 0
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: # BEACON sent so far: 0
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: # BEACON rejected: 0
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: ### [JIT] ###
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: Disabling GPS mode for concentrator's counter...
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: # SX1301 time (PPS): 124441884
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: ### [GPS] ###
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: # GPS sync is disabled
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: ##### END #####
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: host/sx1301 time offset=(1614761190s:558007µs) - drift=79µs
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: Enabling GPS mode for concentrator's counter.
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: JSON up: {"stat":{"time":"2021-03-03 08:48:35 GMT","rxnb":22,"rxok":21,"rxfw":21,"ackr":100.0,"dwnb":0,"txnb":0}}
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":125885499,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.8,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":127204187,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-87,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":128541699,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.8,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":129864747,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":8.5,"rssi":-90,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:48:41 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":131188699,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:49:05 rhf2s008 rsyslogd-2007: action 'action 17' suspended, next retry is Wed Mar  3 08:49:35 2021 [try http://www.rsyslog.com/e/2007 ]
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":132512595,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.0,"rssi":-84,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":133854099,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":135173643,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-85,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":136508243,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-88,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":137836771,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.8,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":139172019,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-87,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":140495787,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-89,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: Received pkt from mote: 015F0832 (fcnt=33)
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: JSON up: {"rxpk":[{"tmst":141817331,"chan":0,"rfch":1,"freq":868.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-91,"size":64,"data":"QDIIXwEAIQACiiIoyxVCqw/NrqfDtyde+cQ50BgqQZ/lPShP6s1NUQUOGZAn9U66FOOIxcbq3azsLCOEXDJNkg=="}]}
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_ACK received in 0 ms
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: ##### 2021-03-03 08:49:05 GMT #####
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: ### [UPSTREAM] ###
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: # RF packets received by concentrator: 13
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: # RF packets forwarded: 13 (832 bytes)
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: # PUSH_DATA datagrams sent: 14 (3515 bytes)
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: # PUSH_DATA acknowledged: 100.00%
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: ### [DOWNSTREAM] ###
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: # PULL_DATA sent: 3 (100.00% acknowledged)
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: # RF packets sent to concentrator: 0 (0 bytes)
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: # TX errors: 0
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: # BEACON queued: 0
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: # BEACON sent so far: 0
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: # BEACON rejected: 0
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: ### [JIT] ###
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: # SX1301 time (PPS): 154441846
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: ### [GPS] ###
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: # GPS sync is disabled
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: ##### END #####
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: JSON up: {"stat":{"time":"2021-03-03 08:49:05 GMT","rxnb":13,"rxok":13,"rxfw":13,"ackr":100.0,"dwnb":0,"txnb":0}}
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: [up] PUSH_ACK received in 0 ms
+Mar  3 08:49:05 rhf2s008 pktfwd.sh[719]: INFO: [down] PULL_RESP received  - token[7:134] :)
