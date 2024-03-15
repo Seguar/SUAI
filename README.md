@@ -1,4 +1,8 @@
-# SUAI
+**Repo for the paper:**
+**https://ieeexplore.ieee.org/document/9470748**
+
+**Functions Description:**
+
 hackrf_get - get int8 .bin IQ data to /raw;
 
 hacrf_scr - TX int8 .bin DSP IQ data from /rawgen;
